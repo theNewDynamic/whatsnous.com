@@ -1,1 +1,1 @@
-This is a prototype site for Jekyll.
+A simple splash page for Nous.
