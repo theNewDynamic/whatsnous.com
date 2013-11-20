@@ -1,0 +1,11 @@
+---
+layout: default
+section: page
+---
+
+
+  {% for item in site.categories.blog limit:1000 %}
+    
+    <h1>{{item.title}}</h1>
+    {{item.content}}
+  {% endfor %}

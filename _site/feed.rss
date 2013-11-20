@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<rss version='2.0' xml:base='/feed.rss' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<channel>
+  <title>Blog</title>
+  <link></link>
+  <description>Occasional Blog Posts</description>
+  <language>en</language>
+  <item>
+  <title>NOUS Entertainment and Media</title>
+  <link>/blog/2013/11/20/hello-world/</link>
+  <description>&lt;p&gt;providing the multitude with quality entertainment&lt;/p&gt;
+
+&lt;p&gt;Contact Adam Scherr&lt;br&gt;
+917-239-2949&lt;br&gt;
+&lt;a href=&quot;mailto:adam@whatsnous.com&quot;&gt;adam@whatsnous.com&lt;/a&gt;&lt;/p&gt;
+</description>
+  <pubDate>2013-11-20T00:00:00-05:00</pubDate>
+  <dc:creator>SITE NAME</dc:creator>
+  <guid isPermaLink="true">/blog/2013/11/20/hello-world/</guid>
+</item>
+
+</channel>
+</rss>

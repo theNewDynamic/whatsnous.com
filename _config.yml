@@ -1,0 +1,4 @@
+baseurl: /whatsnous.com
+permalink: pretty
+markdown: redcarpet
+exclude: ['README.md','Gemfile','links.jsonp']
