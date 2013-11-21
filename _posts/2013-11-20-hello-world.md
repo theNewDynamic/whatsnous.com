@@ -11,6 +11,6 @@ Contact Adam Scherr
 917-239-2949  
 <adam@whatsnous.com>
 
-Suzan Binder
-909-377-3297
+Suzan Binder  
+909-377-3297  
 <Zuzu@whatsnous.com>
