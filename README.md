@@ -1,1 +1,1 @@
-A simple splash page for Nous.
+A simple splash page for a new venture, Nous.
