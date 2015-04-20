@@ -1,0 +1,77 @@
+---
+layout: null
+---
+@import "_sass/libs/normalize";
+@import "_sass/libs/bourbon/bourbon";
+@import "_sass/bitters/bitters";
+@import "_sass/libs/neat/neat";
+
+
+// BASIC MODULES
+@import "_sass/modules/article";
+//@import "_sass/modules/navigation-side";
+@import "_sass/modules/refills/nav-top";
+
+//@import "_sass/modules/refills/accordian";
+
+@import "_sass/modules/page-splash";
+@import "_sass/modules/footer";
+@import "_sass/modules/lists";
+.wrapper {
+	background: url(/assets/img/nous-master.png) no-repeat 50% 10%;
+	
+// 	@include media ($e-vp) {
+// 		background: url(/assets/img/nous-master.png) no-repeat 50% 9%;
+// }
+
+}
+
+body.about .wrapper {
+	background: url(/assets/img/nous-master.png) no-repeat 50% 4.525%;
+
+}
+
+
+body.home {
+	h1, h2 {
+		text-align: center;
+	}
+	h3 {
+		text-align: center;
+		margin: 2em auto;
+	}
+	p {
+		text-align: center;
+		font-size: 1.2em;
+	}
+}
+
+.splash h1{
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	@include media ($small-screen-up) {
+			display: none;
+
+}
+
+
+}
+.title-image{
+	max-width: 98%;
+	text-align: center;
+	margin: auto;
+	padding-top: 2em;
+	padding-left: 1em;
+	@include media ($d-vp) {
+		display: none;
+	}
+
+}
+
+
+// .element {
+//   @include media($medium-screen-up) {
+//     @include span-columns(4);
+//   }
+// }

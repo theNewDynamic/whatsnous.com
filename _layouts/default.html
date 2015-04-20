@@ -1,12 +1,17 @@
----
-title: "What's New"
----
-{% include doc-head.html %}
-<body>
-	<div class="grid--center grid--full content" style="background-color:#c15954;">
-		<div class="grid__item palm-one-whole one-half">
-			{{content}}
-		</div>
-	</div><!--  /.content  -->
+{% include global/head.html %}
+<body {% if page.class %}class="{{ page.class}}"{% endif %}>
+  <div class="wrapper">
+    {% if site.include_nav-top %}
+      {% include nav/nav-top.html %}      
+    {% endif %}
+    <div class="{% if page.splash_image %}content_splash{% endif %}">
+      <section class="content">
+        {{content}}
+      </section>
+  </div>
+</div>
+{% include global/footer.html %}
+{% include global/scripts.html %}
 </body>
 </html>
+
