@@ -1,3 +1,6 @@
 -
  name: about/contact
  slug: about
+-
+ name: news
+ slug: news

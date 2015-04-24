@@ -1,14 +1,5 @@
 <article class="hentry {% if page.class %}{{page.class}}{% endif %}">
   <header>
-    {% if page.tags %}
-      <div style="text-align:right;margin-bottom:1em;">
-        <small class="button button-hidden">
-          <a href="#series">
-            See other articles in this series
-          </a>
-        </small>
-      </div>
-    {% endif %}
     {% if page.title %}
     <h1 class="entry-title">{{page.title}}</h1>
     {% endif %}
@@ -30,6 +21,9 @@
 
     {{page.category}}
     {{ content }}
+    {% if page.file %}
+    <small><a href="/assets/files/{{page.file}}">DOWNLOAD</a></small>
+  {% endif %}
     {% if page.include %}
       {% include {{page.include}} %}
     {% endif %}

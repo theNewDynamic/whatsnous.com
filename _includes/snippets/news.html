@@ -1,5 +1,5 @@
 <div class="list">
-	{% for news in site.posts limit:250 %}
+	{% for news in site.posts|where: 'category', 'news' limit:250 %}
 		<h5 class="title">
 			<a href="{{ news.url }}">
 				{{ news.title }}
@@ -9,6 +9,13 @@
 			{{ news.date | date: "%B %d, %Y" }}
 		</small>
 	</h5>
+{% if news.excerpt %}
+		{{ news.excerpt }}
+		<br /><small><a href="{{news.url}}">READ IN FULL</a></small>
+	{% endif %}
+	{% if news.file %}
+		| <small><a href="/assets/files/{{news.file}}">DOWNLOAD</a></small>
+	{% endif %}
 		<hr />
 	{% endfor %}
 </div>

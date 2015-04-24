@@ -1,7 +1,7 @@
 header.navigation {
   $navigation-background: $dark-gray !default;
   $navigation-background-mobile: #191919;
-  $navigation-color: transparentize(white, 0.3);
+  $navigation-color: transparentize(white, 0.000001);
   $navigation-color-hover: white;
   $navigation-height: 60px;
   $navigation-nav-button-background: $base-accent-color;
@@ -105,7 +105,7 @@ background-color: $navigation-background-mobile; // <--Mobile
       padding-right: 2em;
       text-decoration: none;
       width: auto;
-      font-size: 1.2em;
+      font-size: 1.25em;
     }
 
     a {
