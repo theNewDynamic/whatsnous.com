@@ -3,7 +3,7 @@ title: "Nous Entertainment Sponsors Lama Tenzen Choegyal Trip to United States"
 layout: page
 splash_image: splash.jpg
 file: "nous-entertainment-lama-tenzin-release-10-27-2015.pdf"
-excerpt: "NOUS ENTERTAINMENT TO EXECUTIVE PRODUCE “*Forbidden Cuba*”  Drama-Comedy Filmed Before Embargo Lift; Depicts the Beauty of Life and Coming Change in Cuba"
+excerpt: "Nous Entertainment announced that it is hosting the Venerable Lama Tenzin Choegyal, a noted humanitarian and Buddhist monk, during his Oct. 2015 visit to the United States."
 ---
 **NOUS ENTERTAINMENT SPONSORS LAMA TENZIN CHOEGYAL TRIP TO UNITED STATES** _Hosts Noted Humanitarian During Visit to New York, New Jersey_
 
