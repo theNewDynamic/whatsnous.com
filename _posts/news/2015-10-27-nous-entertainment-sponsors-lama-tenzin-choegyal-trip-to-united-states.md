@@ -1,5 +1,5 @@
 ---
-title: "Nous Entertainment Sponsors Lama Tenzen Choegyal Trip to United States"
+title: "Nous Entertainment Sponsors Lama Tenzin Choegyal Trip to United States"
 layout: page
 splash_image: splash.jpg
 file: "nous-entertainment-lama-tenzin-release-10-27-2015.pdf"
