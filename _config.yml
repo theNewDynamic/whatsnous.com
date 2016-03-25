@@ -42,3 +42,12 @@ twitter_id: budparr
 include_nav-top: true
 include_nav-side-left: false
 include_nav-side-right: false
+
+# DEFAULTS
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: page
+      splash_image: splash.jpg
