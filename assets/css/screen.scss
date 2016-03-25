@@ -19,14 +19,14 @@ layout: null
 @import "_sass/modules/lists";
 .wrapper {
 	background: url(/assets/img/nous-master.png) no-repeat 50% 10%;
-	
+
 // 	@include media ($e-vp) {
 // 		background: url(/assets/img/nous-master.png) no-repeat 50% 9%;
 // }
 
 }
 
-body.about .wrapper {
+body .wrapper {
 	background: url(/assets/img/nous-master.png) no-repeat 50% 4.525%;
 
 }
