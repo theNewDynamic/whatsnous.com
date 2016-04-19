@@ -19,7 +19,7 @@ exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile',
 sass:
   style: :compressed
   sass_dir: assets/css
-
+port: 4001
 # dev options (true/false)
 # if site is in production, 'production: true'
 production: true

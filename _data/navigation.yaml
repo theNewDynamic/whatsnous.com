@@ -1,9 +1,12 @@
 -
  name: about/contact
- slug: about
+ slug: "http://www.whatsnous.com/about/"
 -
  name: news
- slug: news
+ slug: "http://www.whatsnous.com/news/"
 -
  name: Proud Mary
- slug: proud-mary
+ slug: "http://www.whatsnous.com/proud-mary"
+-
+ name: The Whole Story Podcast
+ slug: "http://the-whole-story.whatsnous.com/"
