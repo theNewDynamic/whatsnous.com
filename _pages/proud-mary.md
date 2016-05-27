@@ -8,7 +8,7 @@ sharing: false
 # splash_image: 86H.jpg
 splash_image: bg-clock-book.jpg
 contributor_heading: Creative Team
-contributing:
+contributing_people:
   - contributor: adam-scherr
     role: "Writer, director, producer"
   - contributor: rafael-alvarez
