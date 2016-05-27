@@ -7,20 +7,15 @@ section: page
 {% endif %}
 {% include articles/article.html %}
 
----
 
-<br />
-
-{% if page.contributors %}
+{% if page.people %}
   {% include bios.html %}
 {% endif %}
 
 
----
+{% assign page_footer = site.data.global-variables[page_footer]  %}
 
-<br />
-
-{% assign page_footer = site.data.page_footer  %}
+{{ page_footer}}
 {% if page_footer %}
 {{ page_footer | markdownify }}
 {% endif %}

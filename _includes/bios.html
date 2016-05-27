@@ -1,21 +1,22 @@
-
 <article class="hentry prose">
-
-{% if page.contributor_heading %}
-
-
-<h2>{{ page.contributor_heading }}</h2>
+  {% if page.collection == 'production' %}
+    <h2>
+      Creative Team
+    </h2>
   {% else %}
-  <h2>Bios</h2>
-{% endif %}
-{% for item in page.contributors %}
-  {% assign staff = site.contributors | where: 'slug', item %}
+    <h2>
+      Bios
+    </h2>
+  {% endif %}
+
+{% for item in page.people %}
+  {% assign staff = site.contributors | where: 'slug', item.contributor %}
   {% for object in staff %}
     <h3>
       {{ object.title }}
     </h3>
       {% if object.job %}
-        <h4 class="small" style="margin:1em 0;font-weight:normal;font-size:.875rem;">
+        <h4 class="small" style="margin:1em 0;font-weight:normal;font-size:.875em;">
           <em>
             {{ object.job }}
           </em>

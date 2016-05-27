@@ -49,8 +49,11 @@ include_nav-side-right: false
 
 collections:
   contributors:
-    output: false
+    output: true
     permalink: '/:collection/:path/'
+  productions:
+    output: true
+    permalink: '/production/:path/'
 
 
 # DEFAULTS
@@ -58,6 +61,24 @@ defaults:
   - scope:
       path: ''
       type: posts
+    values:
+      layout: page
+      splash_image: splash.jpg
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+      splash_image: splash.jpg
+  - scope:
+      path: ''
+      type: productions
+    values:
+      layout: page
+      splash_image: splash.jpg
+  - scope:
+      path: ''
+      type: contributors
     values:
       layout: page
       splash_image: splash.jpg
