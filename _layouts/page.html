@@ -13,9 +13,11 @@ section: page
 {% endif %}
 
 
-{% assign page_footer = site.data.global-variables[page_footer]  %}
+{% assign page_footer = site.data.global-variables.item.name['page_footer'] %}
 
-{{ page_footer}}
+
+here:
+
 {% if page_footer %}
-{{ page_footer | markdownify }}
+{{ page_footer  }}
 {% endif %}
