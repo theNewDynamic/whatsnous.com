@@ -6,3 +6,21 @@ section: page
 	{% include snippets/page-splash.html %}
 {% endif %}
 {% include articles/article.html %}
+
+---
+
+<br />
+
+{% if page.contributors %}
+  {% include bios.html %}
+{% endif %}
+
+
+---
+
+<br />
+
+{% assign page_footer = site.data.page_footer  %}
+{% if page_footer %}
+{{ page_footer | markdownify }}
+{% endif %}

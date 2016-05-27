@@ -3,6 +3,10 @@ sitename: 'Nous Entertainment, LLC'
 description: 'Storytellers who celebrate the strength and depth of the human intellect and its ability to create joy as well as enact change'
 mission_statement: "We are storytellers who celebrate the strength and depth of the human intellect and its ability to create joy as well as enact change. We use film – including theatrical, feature-length, digital and television formats – as our vehicle for distributing inspiring narratives and entertaining stories."
 
+
+staff_type:
+  - executive
+
 #Jekyll Options
 # if using more than one Jekyll instance on your local machine
 # port: 4001
@@ -42,6 +46,12 @@ twitter_id: budparr
 include_nav-top: true
 include_nav-side-left: false
 include_nav-side-right: false
+
+collections:
+  contributors:
+    output: false
+    permalink: '/:collection/:path/'
+
 
 # DEFAULTS
 defaults:
