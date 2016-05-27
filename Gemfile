@@ -7,6 +7,7 @@ group :jekyll_plugins do
 #   gem 'autoprefixer-rails'
 #   gem 'uglifier'
 gem 'jekyll-seo-tag'
+gem 'jekyll-redirect-from'
 #   gem "html-proofer"
   # gem "jekyll-lunr-js-search"
   # gem 'jekyll-sitemap'

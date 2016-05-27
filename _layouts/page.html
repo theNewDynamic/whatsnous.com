@@ -13,11 +13,10 @@ section: page
 {% endif %}
 
 
-{% assign page_footer = site.data.global-variables.item.name['page_footer'] %}
 
-
-here:
-
-{% if page_footer %}
-{{ page_footer  }}
+{% if site.page_footer %}
+  <article class="hentry prose">
+    {{ site.page_footer  }}
+  </article>
+  <hr />
 {% endif %}
