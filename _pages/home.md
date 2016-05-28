@@ -5,7 +5,7 @@ class: home
 sharing: false
 published: true
 # category: latest news
-splash_image: splash.jpg
+splash_image_path: /uploads/splash.jpg
 ---
 {% include snippets/news-item.html %}
 

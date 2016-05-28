@@ -22,7 +22,12 @@
   <div class="entry-content prose">
 
     {{page.category}}
-    {{ content }}
+    {% assign number_of_words = page.content | number_of_words  %}
+    <div{% if number_of_words < 180 %} class="lede"{% endif %}>        
+      {{ page.content }}
+    </div>
+
+
     {% if page.file %}
     <small><a href="/assets/files/{{page.file}}">DOWNLOAD</a></small>
   {% endif %}

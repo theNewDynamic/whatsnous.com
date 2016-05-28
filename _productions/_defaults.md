@@ -1,7 +1,7 @@
 ---
 title: 
-published: 
-splash_image:
+published: true
+splash_image_path:
 people:
   - contributor: adam-scherr
     role: "Writer, director, producer"

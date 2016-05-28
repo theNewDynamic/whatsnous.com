@@ -1,7 +1,7 @@
 ---
 title: "Nous Entertainment to Executive Produce “Forbidden Cuba”"
 layout: page
-splash_image: splash.jpg
+splash_image_path: /uploads/splash.jpg
 file: "nous-entertainment-press-release-forbidden-cuba-2015-06-29.pdf"
 excerpt: "NOUS ENTERTAINMENT TO EXECUTIVE PRODUCE “*Forbidden Cuba*”   Drama-Comedy Filmed Before Embargo Lift; Depicts the Beauty of Life and Coming Change in Cuba"
 ---

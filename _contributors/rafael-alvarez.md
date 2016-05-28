@@ -1,10 +1,5 @@
 ---
 title: Rafael Alvarez
-type:
-  - executive
-image_path:
-job: 'Writer'
-slug: adam-scherr
 ---
 
 Rafael Alvarez is an author and screenwriter based in Baltimore and Los Angeles.

@@ -13,7 +13,7 @@ $splash-color-background:#191919 !default;
 	overflow: hidden;
 	//display: none;
 	background-position:50% 50%;
-	
+	height: $splash-height * .75; //<-- DESKTOP	
 		@include media($d-vp) {
 
 			height: $splash-height; //<-- DESKTOP

@@ -1,7 +1,7 @@
 ---
 title: "Nous Entertainment Sponsors Lama Tenzin Choegyal Trip to United States"
 layout: page
-splash_image: splash.jpg
+splash_image_path: /uploads/splash.jpg
 file: "nous-entertainment-lama-tenzin-release-10-27-2015.pdf"
 excerpt: "Nous Entertainment announced that it is hosting the Venerable Lama Tenzin Choegyal, a noted humanitarian and Buddhist monk, during his Oct. 2015 visit to the United States."
 ---

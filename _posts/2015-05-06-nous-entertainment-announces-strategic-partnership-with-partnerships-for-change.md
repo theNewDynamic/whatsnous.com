@@ -1,7 +1,7 @@
 ---
 title: "Nous Entertainment and Partnerships for Change announce strategic partnership to develop two feature-length films"
 layout: page
-splash_image: splash.jpg
+splash_image_path: /uploads/splash.jpg
 file: "nous-entertainment-partnership-release-5-4.pdf"
 excerpt: "Nous Entertainment LLC today announced that Jacqueline Miller and Andrew Michael of Partnerships For Change are joining forces with Nous"
 ---

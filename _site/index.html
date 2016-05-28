@@ -26,7 +26,7 @@
       <link rel="icon" href="http://www.whatsnous.com/favicon.ico" type="image/x-icon">
           <!-- Stylesheets -->
       
-        <link href='/assets/css/screen.css?generated=201605271829' rel='stylesheet' type="text/css" />
+        <link href='/assets/css/screen.css?generated=201605272140' rel='stylesheet' type="text/css" />
       
 
       <!--[if lt IE 9]>       
@@ -45,41 +45,63 @@
 <body class="home">
   <div class="wrapper">
     
-      <header class="navigation">
-  <div class="menu-wrapper">
-    <div class="nav">  
-      <ul id="navigation-menu" class="nav-sidebar">
-	<li class="nav-sidebar-item"><a href="/">home</a></li>
+      <header class="navigation" role="banner">
+  <div class="navigation-wrapper">    
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+    <nav role="navigation">      
+        <ul id="js-navigation-menu" class="navigation-menu">
+	<li class="nav-link">
+    <a href="/">
+      home
+    </a>
+  </li>
 			
-		<li id="http://www.whatsnous.com/about/" class="nav-sidebar-item">
-			<a href="http://www.whatsnous.com/about/">about/contact</a>
+		<li id="/about/" class="nav-link">
+			<a href="/about/">
+        about/contact
+      </a>
 		</li>
-			
-		<li id="http://www.whatsnous.com/news/" class="nav-sidebar-item">
-			<a href="http://www.whatsnous.com/news/">news</a>
+  		
+		<li id="/news/" class="nav-link">
+			<a href="/news/">
+        news
+      </a>
 		</li>
-			
-		<li id="http://www.whatsnous.com/production/proud-mary" class="nav-sidebar-item">
-			<a href="http://www.whatsnous.com/production/proud-mary">Proud Mary</a>
-		</li>
-			
-		<li id="http://the-whole-story.whatsnous.com/" class="nav-sidebar-item">
-			<a href="http://the-whole-story.whatsnous.com/">The Whole Story Podcast</a>
-		</li>
-	
+  
+  <li id="js-navigation-more" class="nav-link more">
+    <a href="javascript:void(0)">productions</a>
+    <ul class="submenu">
+         
+        <li>
+          <a href="/production/proud-mary/">Proud Mary</a>
+        </li>
+         
+        <li>
+          <a href="/production/judas-horse/">Judas Horse</a>
+        </li>
+         
+        <li>
+          <a href="/production/griffins-ghost/">Griffin's Ghost</a>
+        </li>
+                  
+    </ul>
+  </li>
+  <li class="nav-link">
+      <a href="https://the-whole-story.whatsnous.com/">
+        Whole Story Podcast
+      </a>
+    </li>
 </ul>
-
-    </div>
+    </nav>    
   </div>
 </header>
-
       
     
     <div class="content_splash">
       <section class="content">
         
 	
-	<div class='splash' style="background-image:url(/assets/img/splash.jpg);">
+	<div class='splash' style="background-image:url(/uploads/splash.jpg);">
     <img src="/assets/img/nous-master-5.png" class="title-image">
 	</div>
 
@@ -95,6 +117,8 @@
 
     
     
+    <div class="lede">        
+      
 <ul class="posts" style="margin-bottom:3em;">
     
       <li>
@@ -113,6 +137,9 @@
 <p>Our name celebrates the themes represented by the ancient term, Nous: the faculty of the human mind; intellectual understanding of what is true and real; and the concepts of thought and reason.</p>
 
 <p>We are storytellers who celebrate the strength and depth of the human intellect and its ability to create joy as well as enact change. We use film – including theatrical, feature-length, digital and television formats – as our vehicle for distributing inspiring narratives and entertaining stories.</p>
+
+    </div>
+
 
     
     
@@ -165,6 +192,20 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })(); </script>
+
+  <script type="text/javascript">
+    window.onload = function () {
+    var menuToggle = document.getElementById('js-mobile-menu');// may still need something for unbind
+
+    var menu = document.getElementById('js-navigation-menu');
+
+    menuToggle.addEventListener('click', function () {
+        menu.classList.toggle('show');
+    });
+}; // window.onload
+
+
+  </script>
 </body>
 </html>
 
