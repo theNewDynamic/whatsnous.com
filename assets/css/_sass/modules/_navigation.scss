@@ -36,9 +36,11 @@ header.navigation {
     max-height: $navigation-height;
     padding-left: $navigation-padding;
     padding-right: 2em;
+    padding-top:.375em;
 
     img {
-      max-height: $navigation-height;
+      //height: $navigation-height;
+      height: $navigation-height *.75;
       padding: 0.8em 0;
     }
   }
