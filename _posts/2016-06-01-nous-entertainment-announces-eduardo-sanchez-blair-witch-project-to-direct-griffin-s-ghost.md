@@ -20,9 +20,9 @@ The film is derived from a screenplay written by Pulitzer-nominated playwright J
 To learn more about "Griffin's Ghost," please visit [https://www.whatsnous.com/production/griffins-ghost/](https://www.whatsnous.com/production/griffins-ghost/).
 
 About Nous Entertainment:
-<br>Nous Entertainment LLC is an independent production company focused on the development, marketing and distribution of film and television programming aimed at balancing entertainment with issue-driven content. Through strategic partnerships with venture and private equity as well as leading philanthropic organizations, Nous brings inspiring narratives and entertaining stories to life. For more information, please visit [www.whatsnous.com](https://www.whatsnous.com)
+Nous Entertainment LLC is an independent production company focused on the development, marketing and distribution of film and television programming aimed at balancing entertainment with issue-driven content. Through strategic partnerships with venture and private equity as well as leading philanthropic organizations, Nous brings inspiring narratives and entertaining stories to life. For more information, please visit [www.whatsnous.com](https://www.whatsnous.com)
 
-Media Contact: &nbsp; &nbsp; &nbsp; &nbsp;
-<br>Amy Thompson
-<br>202.297.3462
-<br>[amymshirk@gmail.com](javascript:void(location.href='mailto:'+String.fromCharCode(97,109,121,109,115,104,105,114,107,64,103,109,97,105,108,46,99,111,109)+'?subject=From%20the%20whatsnous%20website'))
+Media Contact:  
+Amy Thompson  
+202.297.3462  
+[amymshirk@gmail.com](javascript:void(location.href='mailto:'+String.fromCharCode(97,109,121,109,115,104,105,114,107,64,103,109,97,105,108,46,99,111,109)+'?subject=From%20the%20whatsnous%20website'))
