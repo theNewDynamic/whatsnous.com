@@ -1,7 +1,7 @@
 ---
 title: Forbidden Cuba Screening at the Brooklyn Film Festival
 layout: page
-splash_image_path: /uploads/splash.jpg
+splash_image_path: 'https://i.vimeocdn.com/video/569826553_1280.jpg'
 file: nous-entertainment-press-release-20150422-funding.pdf
 excerpt: Nous Entertainment LLC today announced that it has secured a third round of funding to further support development of its feature-length films
 ---
