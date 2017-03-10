@@ -8,6 +8,7 @@ group :jekyll_plugins do
 #   gem 'uglifier'
 gem 'jekyll-seo-tag'
 gem 'jekyll-redirect-from'
+gem 'jekyll-livereload'
 #   gem "html-proofer"
   # gem "jekyll-lunr-js-search"
   # gem 'jekyll-sitemap'
