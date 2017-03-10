@@ -24,12 +24,13 @@
 
 
     <h6 style="margin-bottom:2em;">{{page.category}}</h6>
-
-    {% assign number_of_words = page.content | number_of_words  %}
-    <div{% if number_of_words < 180 %} class="lede"{% endif %}>
     {% if page.class == 'home' %}
       {% include snippets/news-item.html %}
     {% endif %}
+    
+    {% assign number_of_words = page.content | number_of_words  %}
+    <div{% if number_of_words < 180 %} class="lede"{% endif %}>
+
       {{ page.content | markdownify }}
 
       {% if page.permalink == '/news/' %}
