@@ -21,10 +21,23 @@
 {% comment %}Content Below{% endcomment %}
   <div class="entry-content prose">
 
-    {{page.category}}
+
+
+    <h6 style="margin-bottom:2em;">{{page.category}}</h6>
+    {% if page.class == 'home' %}
+      {% include snippets/news-item.html %}
+    {% endif %}
+
     {% assign number_of_words = page.content | number_of_words  %}
     <div{% if number_of_words < 180 %} class="lede"{% endif %}>
-      {{ page.content }}
+
+      {{ page.content | markdownify }}
+
+      {% if page.permalink == '/news/' %}
+        {% include snippets/news.html %}
+      {% endif %}
+
+
     </div>
 
 
