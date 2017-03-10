@@ -7,11 +7,8 @@ published: true
 # category: latest news
 splash_image_path: /uploads/splash.jpg
 ---
-{% include snippets/news-item.html %}
 
----
-
-## Through strategic partnerships within the entertainment industry, private equity and venture capital firms, and leading philanthropic organizations, we are committed to providing innovators and artists with channels to communicate their impactful and extraordinary stories. 
+## Through strategic partnerships within the entertainment industry, private equity and venture capital firms, and leading philanthropic organizations, we are committed to providing innovators and artists with channels to communicate their impactful and extraordinary stories.
 
 ### Our Story                      
 
