@@ -5,6 +5,8 @@ class: about
 splash_image_path: /uploads/bg-clock-book.jpg
 contributor_heading: Creative Team
 people:
+  - contributor: simmons-ozah
+    role: "Co-Directors"
   - contributor: adam-scherr
     role: 'Writer, director, producer'
   - contributor: suzan-binder
