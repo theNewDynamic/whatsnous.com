@@ -3,8 +3,6 @@ title: Judas Horse
 published: true
 splash_image_path: /uploads/judas-horse-4.jpg
 people:
-  - contributor: vickery-eckhoff
-    role: Writer
   - contributor: eduardo-sanchez
     role: Director
   - contributor: adam-scherr
