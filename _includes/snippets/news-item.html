@@ -1,9 +1,0 @@
-
-  <ul class="posts" style="margin-bottom:3em;">
-    {% for post in site.posts limit:1 %}
-      <li>
-        <strong>Latest News: </strong>&nbsp;&nbsp;
-        <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-    {% endfor %}
-  </ul>
