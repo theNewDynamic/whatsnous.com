@@ -1,0 +1,55 @@
+title = "Notre-Dame de Paris"
+baseURL = "https://example.com"
+languageCode = "en-us"
+theme = "thenewdynamic-hugo-core-theme"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 30 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+preserveTaxonomyNames = true
+newContentEditor = "atom"
+disableAliases = true
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON", "HEADERS", "REDIRECTS"]
+  page = ["HTML","JSON"]
+
+[mediaTypes]
+[mediaTypes."text/netlify"]
+  suffix = ""
+  delimiter = ""
+
+[outputFormats]
+[outputFormats.REDIRECTS]
+  mediatype = "text/netlify"
+  baseName = "_redirects"
+  isPlainText = true
+  notAlternative = true
+[outputFormats.HEADERS]
+  mediatype = "text/netlify"
+  baseName = "_headers"
+  isPlainText = true
+  notAlternative = true
+
+[social]
+twitter = ""
+#facebook = ""
+#youtube = ""
+#instagram = ""
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+# js_path = "/static/dist/js"
+# css_path = "/static/dist/css"
+  body_classes = ""
+  description = "The last theme you'll ever need. Maybe."
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"

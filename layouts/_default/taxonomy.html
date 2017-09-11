@@ -1,0 +1,50 @@
+{{ define "main" }}
+  <article class="cf pa3 pa4-m pa4-l">
+  {{with .Content}}
+    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
+    {{.}}
+
+    </div>
+    {{end}}
+  </article>
+  <div class="mw8 center ph3">
+    {{ $events := .Data.Pages }}
+
+    {{ $events_upcoming := where $events.Reverse ".Date.Unix" "ge" now.Unix }}
+    {{ $events_past := where $events ".Date.Unix" "<" now.Unix }}
+
+    {{if $events_upcoming}}
+      <h2>Upcoming Events</h2>
+      <div class="gray">
+        {{range $events_upcoming}}
+          <div class="bb b--black-10 bg-white mb4 ph4 pv4">
+            {{ .Render "view-summary" }}
+          </div>
+        {{end}}
+      </div>
+    {{end}}
+
+    {{if $events_past}}
+      <h2>Past Events</h2>
+      <div class="gray">
+        {{range $events_past}}
+        <div class="bb b--black-10 bg-white mb4 ph4 pv4">
+          {{ .Render "view-summary" }}
+        </div>
+        {{end}}
+      </div>
+    {{end}}
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+{{ end }}

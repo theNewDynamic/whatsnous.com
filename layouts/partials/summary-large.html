@@ -1,0 +1,20 @@
+<article>
+  <a href="{{ .URL }}" class="ba b--light-gray center cover db h5 hide-child link w6 w-5-ns"{{ with .Params.images }} style="background:url('{{ index . 0 | relURL }}') no-repeat center center;"{{end}}>
+  <div class="child hover-bg-black-90 white-70 h-inherit pa3 w-100">
+    {{with .Date}}
+      <time class="b">{{.Format "January 2, 2006"}}</time>
+      {{end}}
+
+    {{with .Summary}}
+      <p class="f6 lh-copy">
+      {{- . |truncate 180 -}}
+      </p>
+    {{end}}
+    </div>
+  </a>
+  <h1 class="f5 mt0 lh-title mt2 ">
+    <a href="{{ .URL }}" class="accent-color dim link name">
+      {{- .Title -}}
+    </a>
+  </h1>
+</article>

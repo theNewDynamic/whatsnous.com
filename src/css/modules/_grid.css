@@ -1,0 +1,30 @@
+.fb-32 {
+  flex-basis:32%;
+}
+.fb-65 {
+  flex-basis:65%;
+}
+@supports (display: grid) {
+  .dg {
+    display: grid
+  }
+
+  .g-gap-10 {
+    grid-gap: 1rem;
+  }
+  .g-gap-2 {
+    grid-gap: 2.25rem;
+  }
+
+  .g-columns-100 {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+  }
+  .g-columns-230 {
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr) ) ;
+  }
+
+  .g-columns-300 {
+     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) ) ;
+  }
+
+}

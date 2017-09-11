@@ -1,0 +1,17 @@
+<article class="h-entry center cf mw7 pv5 ph3 ph4-ns">
+  <p class="f6 b helvetica tracked">
+    {{ humanize .Section | upper  }} {{with .Params.academic_year}} {{.}}{{end}}
+  </p>
+  <h1 class="f1">
+    {{ .Title }}
+  </h1>
+  <section class="nested-copy-line-height lh-copy f4 nested-links nested-imgTK mid-gray">
+    {{ if and .Params.images  (eq .Params.feature_image false)  }}
+      <img src="{{ index .Params.images 0 }}" class="fl mb2 mr3 mt2 mw5 shadow-5" alt="Image from {{ .Title }}" />
+    {{ end }}
+    {{ .Content }}
+    {{with .Params.embed}}
+      {{. |safeHTML}}
+    {{end}}
+  </section>
+</article>

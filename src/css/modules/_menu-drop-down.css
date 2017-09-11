@@ -1,0 +1,9 @@
+/*This just adds classes to the existing .hide-child classes in Tachyons*/
+.hide-child .child {
+  z-index: -1;
+}
+.hide-child:hover  .child,
+.hide-child:focus  .child,
+.hide-child:active .child {
+  z-index: 100;
+}

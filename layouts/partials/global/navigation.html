@@ -1,0 +1,27 @@
+<nav class="pb2 pt3 ph3 ph2-ns" role="navigation">
+  <div class="flex justify-between items-start items-center-l center">
+    <div class="flex items-start items-center-l">
+
+      <div class="absolute relative-l right-0 mr2 mt2 mt1-l pt1 pt0-l top-0">
+        {{partial "global/nav-toggle-button.html" .}}
+      </div>
+
+      <a href="/" class="color-inherit db dim f3 fw9 lh-title ml2-ns nb3 no-underline mw5">
+        {{ .Site.Title }}
+        {{with .Site.Params.Description }}
+          <span class="fw3 f5 light-silver static db">
+            {{- . -}}
+          </span>
+        {{end}}
+      </a>
+
+    </div>
+    <div class="dn flex-l items-center">
+      <ul class="dib flex flex-wrap list ma0 menu ph0">
+        {{partial "global/nav-menu.html" .}}
+      </ul>
+      {{ partial "social-follow.html" . }}
+    </div>
+  </div>
+
+</nav>

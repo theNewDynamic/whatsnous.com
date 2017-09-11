@@ -1,0 +1,12 @@
+{{/* This is identical to the view-list-past-event view, except the "show_time" is set to true for future events */}}
+{{ if .Params.events }}
+  {{$events_param := string (index .Params.events 0) }}
+  {{$event_color := $.Site.GetPage "taxonomyTerm" "events" $events_param }}
+<li class="list tl">
+  <a href="{{.URL}}" class="bl b--{{$event_color.Title | urlize }}  brand-font bw2 mid-gray db f6 fw8 hover-white hover-bg-gray lh-title link mv4 pl2 pv1 pr4 w-100 ">
+  {{ partial "components/time.html" (dict "context" . "show_time" true "classes" "db f7 fw4 hover-white mid-gray mb1") }}
+  <span class="db f7 {{$event_color.Title | urlize }}">{{$event_color.Title}}</span>
+    {{ .Title }}
+  </a>
+</li>
+{{end}}

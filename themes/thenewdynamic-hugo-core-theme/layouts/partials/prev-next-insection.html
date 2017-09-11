@@ -1,0 +1,12 @@
+
+  {{if .PrevInSection }}
+    <a href="{{ .PrevInSection.Permalink }}" class="db-l f4 f3-ns link primary-color hover-black fw8">
+      <span class="v-mid dib"><</span> {{ .PrevInSection.Title }}
+    </a>
+  {{end}}
+
+  {{if .NextInSection }}
+    <a href="{{.NextInSection.Permalink }}" class="db-l f4 f3-ns link primary-color hover-black fw8">
+      {{ .NextInSection.Title }} <span class="v-mid dib">></span>
+    </a>
+  {{end}}

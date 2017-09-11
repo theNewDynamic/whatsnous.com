@@ -1,0 +1,26 @@
+{{/* the gray class influences the date display */}}
+{{ $section := .section }}
+
+{{ $events := where (where (.context.Site.RegularPages) ".Section" "event") $section .context.File.Path }}
+
+{{ $events_upcoming := where $events.Reverse ".Date.Unix" "ge" now.Unix }}
+{{ $events_past := where $events ".Date.Unix" "<" now.Unix }}
+
+
+{{if $events_upcoming}}
+  <h2>Upcoming Events</h2>
+  <div class="gray">
+    {{range $events_upcoming}}
+      {{.Render "view-list"}}
+    {{end}}
+  </div>
+{{end}}
+
+{{if $events_past}}
+  <h2>Past Events</h2>
+  <ul class="gray pa0 ma0">
+    {{range $events_past}}
+      {{.Render "view-list-past-events"}}
+    {{end}}
+  </ul>
+{{end}}

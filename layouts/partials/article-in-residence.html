@@ -1,0 +1,28 @@
+{{$chair := where .Site.RegularPages ".Section" "chairs"}}
+{{$chair := index (where ($chair) ".File.Path" .Params.chair) 0 }}
+      <article class="h-entry center cf mw7 pv5 ph3 ph4-ns">
+        <p class="b f5 gray helvetica tracked">
+          {{with .Params.academic_year}}{{.}}{{end}} {{$chair.Title}}
+        </p>
+        <h1 class="f1">
+          {{ .Title }}
+        </h1>
+        <section class="nested-copy-line-height lh-copy f4 nested-links nested-imgTK mid-gray">
+          {{ if and .Params.images  (eq .Params.feature_image false)  }}
+            <img src="{{ index .Params.images 0 }}" class="fl mb2 mr3 mt2 mw5 shadow-5" alt="Image from {{ .Title }}" />
+          {{ end }}
+          {{ .Content }}
+          {{with .Params.embed}}
+            {{. |safeHTML}}
+          {{end}}
+        </section>
+
+        <aside class="pa4 bg-light-gray">
+          <h2>{{$chair.Title}}</h2>
+          {{with $chair.Content}}
+            <div class="dark-gray nested-copy-line-height">{{.}}</div>
+          {{end}}
+          <a href="/chairs/" class="accent-color b--gray ba black br2 dib hover-bg-gray hover-white f6 link mt3 ph3 pv2">See all chairs</a>
+        </aside>
+
+      </article>

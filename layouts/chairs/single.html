@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{partial "article.html" .}}
+
+  <div class="mw8 center">
+    <section class="mv5">
+      {{$inResidence := (where (.Site.RegularPages.ByParam "academic_year").Reverse ".Params.chair" .File.Path)}}
+      <div class="flex flex-wrap justify-between">
+        {{range $inResidence}}
+          {{.Render "summary"}}
+        {{end}}
+      </div>
+    </section>
+  </div>
+{{ end }}

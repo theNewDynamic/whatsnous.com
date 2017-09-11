@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>
+Deadline Club</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.deadlineclub.org/wp-content/themes/splendio/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.deadlineclub.org/wp-content/themes/splendio/style-print.css"  />
+<link  href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold" rel="stylesheet" type="text/css" >
+<link rel="shortcut icon" href="http://www.deadlineclub.org/wp-content/themes/splendio/images/favicon.ico" type="image/x-icon" />
+<script type='text/javascript' src="http://www.deadlineclub.org/wp-content/themes/splendio/js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="http://www.deadlineclub.org/wp-content/themes/splendio/js/jquery.color.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        if(!$.browser.msie) $("ul li").hover(function() {$(this).siblings().stop().fadeTo(400,0.4);}, function() { $(this).siblings().stop().fadeTo(400,1); });
+    });
+</script>
+<link rel="pingback" href="http://www.deadlineclub.org/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Deadline Club &raquo; Feed" href="http://www.deadlineclub.org/feed" />
+<link rel="alternate" type="application/rss+xml" title="Deadline Club &raquo; Comments Feed" href="http://www.deadlineclub.org/comments/feed" />
+<link rel="alternate" type="text/calendar" title="Deadline Club &raquo; iCal Feed" href="http://www.deadlineclub.org/upcomingevents/?ical=1" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.deadlineclub.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.5"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wa_chpcs_style-css'  href='http://www.deadlineclub.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/css/custom-style.css?ver=4.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.deadlineclub.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twttr_stylesheet-css'  href='http://www.deadlineclub.org/wp-content/plugins/twitter-plugin/css/style.css?ver=4.2.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.deadlineclub.org/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://www.deadlineclub.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.deadlineclub.org/wp-content/plugins/mailchimp-widget/js/mailchimp-widget-min.js?ver=4.2.5'></script>
+<script type='text/javascript' src='http://www.deadlineclub.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.transit.min.js?ver=4.2.5'></script>
+<script type='text/javascript' src='http://www.deadlineclub.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.carouFredSel-6.2.1-packed.js?ver=4.2.5'></script>
+<script type='text/javascript' src='http://www.deadlineclub.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.touchSwipe.min.js?ver=4.2.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var chpcsArgs = {"auto_scroll":"true","circular":"true","easing_effect":"linear","item_align":"right","direction":"left","touch_swipe":"false","item_width":"700","time_out":"9999999","css_transition":"true","infinite":"true","fx":"scroll"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.deadlineclub.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/script.js?ver=4.2.5'></script>
+<script type='text/javascript' src='http://www.deadlineclub.org/wp-content/plugins/wp-featured-content-slider/scripts/jquery.cycle.all.2.72.js?ver=1.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.deadlineclub.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.deadlineclub.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.5" />
+<link type="text/css" rel="stylesheet" href="http://www.deadlineclub.org/wp-content/plugins/latest-twitter-sidebar-widget/latest_twitter_widget.css" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49088805-1', 'deadlineclub.org');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body class="home blog tribe-theme-splendio page-template-index-php">
+<!-- Start - Wrapper -->
+<div id="wrapper">
+<!-- Start header -->
+<div id="header">    
+ <div class="header-left">
+   <div class="logo">
+  				
+  <h1 class="site-title">
+  <span><a href="http://www.deadlineclub.org/" title="Deadline Club" rel="home">
+  	<img src="http://www.deadlineclub.org/wp-content/uploads/2015/03/new-dead-logo-4-pm-32-e1425250177817.png" alt="" />
+  </a></span>
+  </h1>
+  <div class="site-desc"></div>  
+  </div>    
+  <!-- Start access -->
+  <div id="access" role="navigation">
+    <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+    <div class="menu-header"><ul id="menu-main-nav" class="menu"><li id="menu-item-371" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-371"><a href="http://www.deadlineclub.org">Home</a></li>
+<li id="menu-item-367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-367"><a href="http://www.deadlineclub.org/about-dc">About Us</a></li>
+<li id="menu-item-1924" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1924"><a href="http://www.deadlineclub.org/clubevents">Events</a></li>
+<li id="menu-item-1894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1894"><a href="http://www.deadlineclub.org/awards">Awards</a></li>
+<li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a href="http://www.deadlineclub.org/scholarships">Scholarships</a></li>
+<li id="menu-item-1927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1927"><a href="http://www.deadlineclub.org/advocacy">Advocacy</a></li>
+<li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="http://www.deadlineclub.org/membership">Membership</a></li>
+</ul></div>  </div>
+ <!-- End access -->   
+</div> 
+<div class="header-right">
+ <div class="syndicate">
+  <ul>
+   <li><a class="s2" href="http://twitter.com/deadlineclub" title="Twitter" target="_blank"><em>Twitter</em></a></li>
+   <li><a class="s3" href="http://www.facebook.com/groups/deadlineclub/" title="Facebook" target="_blank"><em>Facebook</em></a></li>
+   <li><a class="s5" href="http://www.linkedin.com/groups/Deadline-Club-4047192/about" title="LinkedIn" target="_blank"><em>Linkedin</em></a></li>
+   <li><a class="s1" href="http://www.spj.org/rss.asp" title="RSS" target="_blank"><em>RSS</em></a></li>
+  </ul>
+ </div>
+ <div class="aboutus">
+				<div class="textwidget"><p style="clear:both;padding-top:20px;font-size:20px">
+<a href="http://www.spj.org" title="SPJ homepage" target="_blank">Society of Professional Journalists</a>  
+</p>
+<h2><a href="http://www.deadlineclub.org/join-now">Join SPJ / Deadline Club Now</a></h2>
+<h2><a href="http://www.deadlineclub.org/contact">Contact us</a></h2></div>
+		 </div>
+</div>    
+</div>
+<!-- End header -->
+<!-- Start Container -->
+<div id="container">
+
+<!-- Start Content -->
+<div class="SC" role="main">
+
+<!-- Side - List Post-->
+<div class="SL">
+
+	<style>
+
+	
+	.chpcs_foo_content img {
+
+		max-width: 700;
+	}
+
+			.chpcs_image_carousel .chpcs_prev, .chpcs_image_carousel .chpcs_next{
+
+			background: rgba(168, 32, 32, 0);
+
+			color: rgb(0, 0, 0);
+
+			font-size: 50px;
+
+			line-height: 57px;
+
+			width: 60px;
+
+			height: 60px;
+
+			margin-top: -50px;
+
+		}
+
+		.chpcs_image_carousel.chpcs_prev:hover, .chpcs_image_carousel .chpcs_next:hover {
+
+			color: rgb(170, 170, 170);
+
+		}
+
+		#wa_chpcs_pager a {
+
+			background: rgb(170, 170, 170);
+
+		}
+
+	</style>
+
+	<div class="chpcs_image_carousel"><div id="wa_chpc_slider" style="height:300px; overflow: hidden;"><div class="chpcs_foo_content" style="width:700px; height:300px;"><span class="chpcs_img"><a href="http://www.deadlineclub.org/archives/4079"><img src='http://www.deadlineclub.org/wp-content/uploads/2015/10/Hall-of-Fame-Logo-1024x1024.jpg'/></a></span></div><div class="chpcs_foo_content" style="width:700px; height:300px;"><span class="chpcs_img"><a href="http://www.deadlineclub.org/archives/4067"><img src='http://www.deadlineclub.org/wp-content/uploads/2015/09/10010739854_d623c8e0f7_o.jpg'/></a></span></div><div class="chpcs_foo_content" style="width:700px; height:300px;"><span class="chpcs_img"><a href="http://www.deadlineclub.org/archives/4054"><img src='http://www.deadlineclub.org/wp-content/uploads/2015/08/candles-e1440727300998.jpg'/></a></span></div><div class="chpcs_foo_content" style="width:700px; height:300px;"><span class="chpcs_img"><a href="http://www.deadlineclub.org/archives/4051"><img src='http://www.deadlineclub.org/wp-content/uploads/2015/08/camera-court1.jpg'/></a></span></div></div><div class="chpcs_clearfix"></div><a class="chpcs_prev" id="wa_chpc_slider_prev" href="#"><span>‹</span></a><a class="chpcs_next" id="wa_chpc_slider_next" href="#"><span>›</span></a><div class="chpcs_pagination" id="wa_chpcs_pager"></div></div>
+<!--start of Latest Posts-->
+<div class="latest">
+<span class="toptitle"><strong>Top of the News</strong></span>
+	  
+<div id="post-4079" class="post indexpost">
+<div class="post-head">
+ <div class="post-date">October 13, 2015</div>
+  <h2><a href="http://www.deadlineclub.org/archives/4079" title="Permalink to Hall of Fame Set for November 19" rel="bookmark">Hall of Fame Set for November 19</a></h2>
+ </div>
+    <div class="post-con"><div class="slideshow_container slideshow_container_style-light" style="height: 500px; max-width: 500px;" data-session-id="0" data-style-name="style-light" data-style-version="2.2.23">
+
+			<div class="slideshow_loading_icon"></div>
+	
+	<div class="slideshow_content" style="display: none;">
+
+		<div class="slideshow_view">
+			<div class="slideshow_slide slideshow_slide_image">
+									<img src="http://www.deadlineclub.org/wp-content/uploads/2015/10/Max-Frankel-2.jpg" alt="Max Frankel, The New York Times" width="230" height="320" />
+								<div class="slideshow_description_box slideshow_transparent">
+					<div class="slideshow_title">Max Frankel, The New York Times</div>									</div>
+			</div>
+
+			<div style="clear: both;"></div></div><div class="slideshow_view">
+			<div class="slideshow_slide slideshow_slide_image">
+									<img src="http://www.deadlineclub.org/wp-content/uploads/2015/10/Gonzalez.jpg" alt="Juan González, The New York Daily News" width="2832" height="4256" />
+								<div class="slideshow_description_box slideshow_transparent">
+					<div class="slideshow_title">Juan González, The New York Daily News</div>									</div>
+			</div>
+
+			<div style="clear: both;"></div></div><div class="slideshow_view">
+			<div class="slideshow_slide slideshow_slide_image">
+									<img src="http://www.deadlineclub.org/wp-content/uploads/2015/10/Charlie-CTM-3-Headshot.jpg" alt="Charlie Rose, CBS and PBS" width="800" height="1200" />
+								<div class="slideshow_description_box slideshow_transparent">
+					<div class="slideshow_title">Charlie Rose, CBS and PBS</div>									</div>
+			</div>
+
+			<div style="clear: both;"></div></div><div class="slideshow_view">
+			<div class="slideshow_slide slideshow_slide_image">
+									<img src="http://www.deadlineclub.org/wp-content/uploads/2015/10/stahlcrop.jpg" alt="Lesley Stahl, CBS's 60 Minutes" width="1279" height="1405" />
+								<div class="slideshow_description_box slideshow_transparent">
+					<div class="slideshow_title">Lesley Stahl, CBS's 60 Minutes</div>									</div>
+			</div>
+
+			<div style="clear: both;"></div></div><div class="slideshow_view">
+			<div class="slideshow_slide slideshow_slide_image">
+									<img src="http://www.deadlineclub.org/wp-content/uploads/2015/10/paul_steiger_IMG_4553-e1444680777825.jpg" alt="Paul E. Steiger, ProPublica and The Wall Street Journal" width="2592" height="3888" />
+								<div class="slideshow_description_box slideshow_transparent">
+					<div class="slideshow_title">Paul E. Steiger, ProPublica and The Wall Street Journal</div>									</div>
+			</div>
+
+			<div style="clear: both;"></div></div><div class="slideshow_view">
+			<div class="slideshow_slide slideshow_slide_image">
+									<img src="http://www.deadlineclub.org/wp-content/uploads/2015/10/Dick-Stolley.jpg" alt="Richard B. Stolley, Time Inc." width="1480" height="2068" />
+								<div class="slideshow_description_box slideshow_transparent">
+					<div class="slideshow_title">Richard B. Stolley, Time Inc.</div>									</div>
+			</div>
+
+			<div style="clear: both;"></div></div>
+	</div>
+
+	<div class="slideshow_controlPanel slideshow_transparent" style="display: none;"><ul><li class="slideshow_togglePlay" data-play-text="Play" data-pause-text="Pause"></li></ul></div>
+
+	<div class="slideshow_button slideshow_previous slideshow_transparent" role="button" data-previous-text="Previous" style="display: none;"></div>
+	<div class="slideshow_button slideshow_next slideshow_transparent" role="button" data-next-text="Next" style="display: none;"></div>
+
+	<div class="slideshow_pagination" style="display: none;" data-go-to-text="Go to slide"><div class="slideshow_pagination_center"></div></div>
+
+	<!-- WordPress Slideshow Version 2.2.23 -->
+
+	</div>
+<p>The Deadline Club is pleased to announce the 2015 New York Journalism <strong><a href="http://www.deadlineclub.org/about-dc/deadline-club-hall-of-fame">Hall of Fame</a></strong>. Established in 1975 to celebrate The Club’s golden anniversary, the tradition continues on Nov. 19, when a half dozen iconic New York journalists will be inducted in a luncheon ceremony at Sardi’s Restaurant. All six honorees plan to be on hand to receive their Hall of Fame medals and speak about their remarkable careers. The last day to purchase tickets at the early bird rate will be Monday, Nov. 9.</p>
+<p><strong><a href="http://events.constantcontact.com/register/event?llr=f6ag7hmab&amp;oeidk=a07ebnfec4a93e996b4">Click here to purchase tickets, tables and sponsorships</a></strong></p>
+<p><strong>The Honorees</strong><br />
+(in alphabetical order)</p>
+<p><strong>Max Frankel</strong> had an illustrious 50-year career with <strong>The New York Times</strong>, rising from college correspondent to ultimately become the executive editor from 1986 to 1994. Along the way, he reported from such Cold War hotspots as Moscow, Hungary and Cuba before holding many of the top editing posts at the newspaper. He was the Washington bureau chief in 1971, when the Times published the Pentagon papers. In 1973, he won the Pulitzer Prize for coverage of Richard Nixon&#8217;s trip to China. He is the author of a memoir, <em>The Times of My Life and My Life with the Times, </em>and<em> High Noon in the Cold War: Kennedy, Khrushchev and the Cuban Missile Crisis.</em></p>
+<p><strong>Juan González</strong> has been a staff columnist with <strong>The New York Daily News</strong> since 1987 and co-host of the syndicated radio and television news program <strong>Democracy Now</strong> since 1996. His books include <em>Harvest of Empire: A History of Latinos in America; News for All the People: The Epic Story of Race and the American Media and Fallout: The Environmental Consequences of the World Trade Center Collapse.</em> González has received two George Polk Awards for commentary, and has been named to the Hall of Fame of the National Association of Hispanic Journalists.</p>
+<p><strong>Charlie Rose</strong> is anchor and executive editor of several televised programs. For more than two decades, he has hosted Charlie Rose, a nightly interview show distributed nationally by <strong>PBS</strong>, which since 2013 has also distributed <strong>Charlie Rose: The Week</strong>. He has co-hosted CBS This Morning since 2012, and is a contributing correspondent to the network’s <strong>60 Minutes</strong> news magazine. Rose, whose television career spans more than four decades, has aired countless interviews with Nobel Laureates, and extraordinary men and women of science, politics, art, business, sports, technology, literature and entertainment. He is the recipient of the Légion d&#8217;honneur, numerous awards from the scientific and journalism communities, including two Emmys, and many honorary degrees.</p>
+<p><strong>Lesley Stahl</strong> is commencing her 25th season as a correspondent for <strong>CBS’s 60 Minutes</strong>, where her work has included political scoops and insightful foreign reporting, while garnering 11 Emmy awards. Stahl joined <strong>CBS News</strong> in the Washington bureau in 1972, in the midst of the Watergate coverage, going on to serve as White House correspondent, the first woman to hold that job. She was a moderator of <strong>CBS’s Face the Nation</strong>, interviewing such newsmakers as George H. W. Bush, Margaret Thatcher, Boris Yeltsin and Yasir Arafat. She is the author of a memoir, <em>Reporting Live</em>. Stahl has won numerous awards, including RTDNA’s 2015 Paul White award for lifetime achievement.</p>
+<p><strong>Paul E. Steiger</strong> is the executive chairman of <strong>ProPublica</strong>, after serving as founding editor-in-chief, CEO and president from 2008 through 2012. During 26 years at <strong>The Wall Street Journal</strong>, he rose to become managing editor from 1991 to 2007. Under his leadership, the Journal won 16 Pulitzer Prizes. He also worked for 15 years at <strong>The Los Angeles Times</strong>. Steiger is now on the nonprofit boards of the Reporters Committee for Freedom of the Press and the John S. and James L. Knight Foundation. From 2005 to 2011, he was the chairman of the Committee to Protect Journalists. Honors include the Gerald Loeb Award for lifetime achievement and awards from universities including Columbia, Harvard, Missouri, Kansas, Brandeis, and Arizona.</p>
+<p><strong>Richard B. Stolley</strong> had a prolific 62-year career with <strong>Time Inc.</strong>, including as Editorial Director, the company’s second highest editorial management position. He worked for 19 years at the weekly Life magazine—serving as bureau chief in Atlanta, Los Angeles, Washington, D.C. and Paris—before becoming the assistant managing editor. He was the editor of <strong>Life</strong> in the early 1980s, after it had become a monthly. He is perhaps best remembered for obtaining the famous Zapruder film of John F. Kennedy’s assassination for Life. In 1973, he became the founding editor of <strong>People</strong> magazine, creating a pioneering new magazine format that has been much copied since. He has received several lifetime achievement awards, including from the American Society of Magazine Editors and the Magazine Publishers of America.</p>
+<div class="twttr_button">
+						<a href="http://twitter.com/share?url=http://www.deadlineclub.org/archives/4079&text=Hall+of+Fame+Set+for+November+19" target="_blank" title="Click here if you like this article.">
+							<img src="http://www.deadlineclub.org/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+						</a>
+					</div></div>
+ <ul class="post-det">
+     
+    </ul>
+ </div>
+<!--End of Post -->
+
+</div>
+<!--end of Latest Posts-->
+
+<!-- Start - List -->
+  <div class="list">
+  <span class="toptitle"><strong>In other news</strong></span>
+   <ul>
+    <li><span class="date">September 27, 2015</span><a href="http://www.deadlineclub.org/archives/4067" rel="bookmark" title="Permanent Link: Deadline Club Skills Workshop: Get On Top of Social Media with the Latest Tools">Deadline Club Skills Workshop: Get On Top of Social Media with the Latest Tools</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">August 27, 2015</span><a href="http://www.deadlineclub.org/archives/4054" rel="bookmark" title="Permanent Link: Condolences for slain journalists">Condolences for slain journalists</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">August 25, 2015</span><a href="http://www.deadlineclub.org/archives/4051" rel="bookmark" title="Permanent Link: Cameras in the courtroom: deadline to comment extended to Nov. 13">Cameras in the courtroom: deadline to comment extended to Nov. 13</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">August 24, 2015</span><a href="http://www.deadlineclub.org/archives/4057" rel="bookmark" title="Permanent Link: Register for Excellence in Journalism by Sept. 3 and see you in Orlando">Register for Excellence in Journalism by Sept. 3 and see you in Orlando</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">July 14, 2015</span><a href="http://www.deadlineclub.org/archives/4048" rel="bookmark" title="Permanent Link: SPJ/Deadline Club Free Rooftop Media Networking Mixer--Tuesday, July 21, 6-9 p.m.">SPJ/Deadline Club Free Rooftop Media Networking Mixer--Tuesday, July 21, 6-9 p.m.</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">June 8, 2015</span><a href="http://www.deadlineclub.org/archives/4034" rel="bookmark" title="Permanent Link: Deadline Club Media Mixer Wed. June 17">Deadline Club Media Mixer Wed. June 17</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">June 8, 2015</span><a href="http://www.deadlineclub.org/archives/3920" rel="bookmark" title="Permanent Link: SPJ JournCamp Arrives in the City on June 13">SPJ JournCamp Arrives in the City on June 13</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">May 15, 2015</span><a href="http://www.deadlineclub.org/archives/3964" rel="bookmark" title="Permanent Link: 16 News Organizations Win 30 Deadline Club ‘Rubes’ at Gala Ceremony">16 News Organizations Win 30 Deadline Club ‘Rubes’ at Gala Ceremony</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">May 12, 2015</span><a href="http://www.deadlineclub.org/archives/3929" rel="bookmark" title="Permanent Link: Club Reveals 2015 Awards Winners at May 12 Waldorf Dinner">Club Reveals 2015 Awards Winners at May 12 Waldorf Dinner</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">May 12, 2015</span><a href="http://www.deadlineclub.org/archives/3980" rel="bookmark" title="Permanent Link: Judges comments from the 2015 awards">Judges comments from the 2015 awards</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">May 12, 2015</span><a href="http://www.deadlineclub.org/archives/3953" rel="bookmark" title="Permanent Link: Big Picture Debate at The Deadline Club’s ‘Limits of Free Speech’ Panel">Big Picture Debate at The Deadline Club’s ‘Limits of Free Speech’ Panel</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">May 11, 2015</span><a href="http://www.deadlineclub.org/archives/3998" rel="bookmark" title="Permanent Link: Scholarship Winners from the 2015 Students&#039; Contest">Scholarship Winners from the 2015 Students&#039; Contest</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">May 10, 2015</span><a href="http://www.deadlineclub.org/archives/3829" rel="bookmark" title="Permanent Link: Who Gets the Rube? Club to Announce Awards Tuesday">Who Gets the Rube? Club to Announce Awards Tuesday</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">April 30, 2015</span><a href="http://www.deadlineclub.org/archives/3862" rel="bookmark" title="Permanent Link: Apply by May 15 for Business Reporting Fellowship -- Up to $15,000 from CUNY J-School">Apply by May 15 for Business Reporting Fellowship -- Up to $15,000 from CUNY J-School</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">April 2, 2015</span><a href="http://www.deadlineclub.org/archives/3908" rel="bookmark" title="Permanent Link: Media Mixer at Connolly&#039;s on May 7">Media Mixer at Connolly&#039;s on May 7</a><br /><span style="font-weight:normal;"></span></li><li><span class="date">April 2, 2015</span><a href="http://www.deadlineclub.org/archives/3626" rel="bookmark" title="Permanent Link: Early Bird Ticket Rates End May 1">Early Bird Ticket Rates End May 1</a><br /><span style="font-weight:normal;"></span></li>   </ul>
+  </div>
+<!-- End - List-->
+
+</div>
+<!-- End - Side Left -->
+
+<!-- Start - Side Right -->
+<div class="SR">
+ 
+<div class="widget-area" role="complementary">
+<!-- Start Recent Comments -->
+<!-- End Recent Comments -->
+
+<div id="search-2" class="widget widget_search"><h3 class="widget-title">Search</h3><form role="search" method="get" id="searchform" class="searchform" action="http://www.deadlineclub.org/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></div><div id="text-22" class="widget widget_text"><h3 class="widget-title">Awards Show Videos</h3>			<div class="textwidget"><p><img src="/wp-content/uploads/2015/06/steve-coll-2-e1433290093858.jpg"alt="Steve Coll" /></p>
+<p>Steve Coll, Dean of the Columbia University School of Journalism is interviewed by Jennifer Saba of Reuters at the 2015 awards dinner. <a href="https://youtu.be/5QzUbUpNE-U" target="_blank"> (Watch the Video)</a></p>
+<p><img src="/wp-content/uploads/2014/05/14246124455_dd806c6bf6_m-e1401108879265.jpg" alt= "Jeff Zucker" /></p>
+<p>Jeff Zucker of CNN Worldwide is interviewed by Bill Carter of the New York Times at the 2014 awards dinner. <a href="https://www.youtube.com/watch?v=_sheH_d6-tg" target="_blank"> (Watch the Video)</a></p>
+<p><img src="/wp-content/uploads/2013/06/IMG_0279-e1370622503367.jpg" alt= "Gerard Baker" /></p>
+<p>Gerard Baker of The Wall Street Journal and Dow Jones & Co. is interviewed by Andy Serwer of Fortune at the 2013 awards dinner.<a href="http://www.youtube.com/watch?v=m79DuTdUuhU&feature=youtu.be" target="_blank"> (Watch the Video)</a></p>
+</div>
+		</div><div id="text-27" class="widget widget_text"><h3 class="widget-title">Hall of Fame Video</h3>			<div class="textwidget"><p><img src="/wp-content/uploads/2014/01/Sardis-Group-Shot-e1389654995778.jpg" alt= "2014 Hall of Fame" /></p>
+<p>The Club revived its Hall of Fame in November, 2013. Eight iconic New York journalists were inducted in a luncheon ceremony at Sardi's. Hear the complete remarks by Cindy Adams, Jimmy Breslin, Graydon Carter, Bob Herbert, Carol Loomis, Linda Mason, Bill Moyers and Norman Pearlstine. (<a href="http://www.youtube.com/watch?v=syBsmPhe1Fg"  target="_blank">Watch the video</a>)</p>
+</div>
+		</div><div id="text-10" class="widget widget_text"><h3 class="widget-title">Advocacy</h3>			<div class="textwidget">The Club's advocacy includes defending the rights of journalists to cover police incidents in New York City. If you feel you were prevented from doing your job, or witnessed such an event, report it to us.  <a href="http://www.deadlineclub.org/report-incident">Report an incident.</a>
+</div>
+		</div><div id="text-31" class="widget widget_text"><h3 class="widget-title">Deadline Club on Twitter</h3>			<div class="textwidget">            <a class="twitter-timeline"  href="https://twitter.com/deadlineclub" data-widget-id="555221600988299265">Tweets by @deadlineclub</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+		</div></div>
+<!-- #sidebar .widget-area -->
+
+</div>
+<!-- End - Side Right -->
+
+</div>
+<!-- End - SC -->
+
+<div class="container-bot"></div>
+</div>
+<!-- End Container -->
+
+
+<!-- Start - Footer -->
+<div id="footer" role="contentinfo">
+
+<!-- Start Footer Flickr Photostream -->
+<!-- End Footer Flickr Photostream -->
+
+<div id="footer-widget-area">
+	<div id="second" class="widget-area" style="width:200px; height:119px">
+		<ul class="fade">
+			<aside id="text-4" class="widget-container">
+				<h1 class="widget-title">The Deadline Club</h1>			
+				<div class="textwidget">The Salmagundi Club <br />47 5th Avenue<br />New York, NY 10003<br />646/481-7584<br /><a href="http://www.deadlineclub.org/contact">Contact us</a></div>
+			</aside>		
+		</ul>
+	</div>
+			<div id="first" class="widget-area" style="width:600px; float:right">
+			<ul>
+				<li id="ns_widget_mailchimp-3" class="widget-container"><h3 class="widget-title">Get the Deadliner Express</h3>	
+				<form action="/" id="ns_widget_mailchimp_form-3" method="post">
+											
+					<label>First Name :</label><input type="text" class="textinput" name="ns_widget_mailchimp_first_name" />
+					<br />
+						
+					<label>Last Name :</label><input type="text" class="textinput" name="ns_widget_mailchimp_last_name" />
+					<br />
+											<input type="hidden" name="ns_mc_number" value="3" />
+						<label for="ns_widget_mailchimp-email-3">Email Address :</label>
+						<input id="ns_widget_mailchimp-email-3" type="text" name="ns_widget_mailchimp_email" class="textinput"  />
+						<br /><br />
+						<input class="button" type="submit" name="Get Updates" value="Get Updates" />
+					</form>
+						<script>jQuery('#ns_widget_mailchimp_form-3').ns_mc_widget({"url" : "/index.php", "cookie_id" : "ns_widget_mailchimp-3", "cookie_value" : "31e456aa2a24941f893fe9ebd166665f", "loader_graphic" : "http://www.deadlineclub.org/wp-content/plugins/mailchimp-widget/images/ajax-loader.gif"}); </script>
+				</li>			</ul>
+		</div><!-- #first .widget-area -->
+	</div>
+<div id="footer-widget-area-bot"></div>
+
+
+<!-- Start Footer Widgets -->
+<!-- End Footer Widgets -->
+
+<div class="site-info">
+ &copy;  2010 - 2012 <a href="http://www.deadlineclub.org/" title="Deadline Club" rel="home">Deadline Club</a>. All Rights Reserved <br />
+ Splendio Theme is created by <a href="http://designdisease.com/" title="Profesional Blog Design" rel="generator"> DesignDisease.</a> Powered by: Wordpress
+</div>
+</div>
+<!-- End - Footer -->
+
+</div>
+<!-- End - Wrapper -->
+
+<link rel='stylesheet' id='slideshow-jquery-image-gallery-stylesheet_functional-css'  href='http://www.deadlineclub.org/wp-content/plugins/slideshow-jquery-image-gallery/style/SlideshowPlugin/functional.css?ver=2.2.23' type='text/css' media='all' />
+<link rel='stylesheet' id='slideshow-jquery-image-gallery-stylesheet_style-light-css'  href='http://www.deadlineclub.org/wp-content/plugins/slideshow-jquery-image-gallery/css/style-light.css?ver=2.2.23' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.deadlineclub.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.deadlineclub.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.deadlineclub.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var SlideshowPluginSettings_0 = {"animation":"slide","slideSpeed":"4","descriptionSpeed":"1.0","intervalSpeed":"7","slidesPerView":"1","maxWidth":"500","aspectRatio":"1:1","height":"500","imageBehaviour":"natural","showDescription":"true","hideDescription":"false","preserveSlideshowDimensions":"false","enableResponsiveness":"true","play":"true","loop":"true","pauseOnHover":"true","controllable":"true","hideNavigationButtons":"false","showPagination":"true","hidePagination":"true","controlPanel":"true","hideControlPanel":"true","waitUntilLoaded":"true","showLoadingIcon":"true","random":"false","avoidFilter":"true","stretchImages":"false"};
+var slideshow_jquery_image_gallery_script_adminURL = "http:\/\/www.deadlineclub.org\/wp-admin\/";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.deadlineclub.org/wp-content/plugins/slideshow-jquery-image-gallery/js/min/all.frontend.min.js?ver=2.2.23'></script>
+
+</body>
+</html>

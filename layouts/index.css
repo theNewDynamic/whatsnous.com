@@ -1,0 +1,8 @@
+
+
+{{ range ($.Site.GetPage "taxonomyTerm" "events").Pages }}
+.{{.Title | urlize }}{ color: {{.Params.color}}  }
+.b--{{.Title | urlize }}{ border-color: {{.Params.color}}  }
+.bg-{{.Title | urlize }}{ background-color: {{.Params.color}}  }
+.hover-bg-{{.Title | urlize }}:hover { background-color: {{.Params.color}}  }
+{{end}}

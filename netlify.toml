@@ -1,0 +1,23 @@
+[build]
+  publish = "public"
+  command = "hugo"
+
+[context.production.environment]
+  HUGO_VERSION = "0.26"
+  HUGO_ENV = "devp"
+
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.26"
+
+[context.branch-deploy.environment]
+  HUGO_VERSION = "0.26"
+
+
+
+# [context.production.environment]
+#   HUGO_VERSION = "0.24.1"
+#   HUGO_ENV = "development"
+
+# https://www.netlify.com/docs/continuous-deployment/#deploy-contexts
+# https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/

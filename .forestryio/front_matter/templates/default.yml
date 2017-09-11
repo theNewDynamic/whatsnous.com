@@ -1,0 +1,23 @@
+---
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: Date
+  default: Invalid date
+- name: tags
+  label: Tags
+  type: text
+  hidden: false
+  default: 
+- name: images
+  label: Images
+  type: text
+  hidden: false
+  default: ''
+- type: ''
+  name: weight
+  label: Weight
+  description: Use only for listing pages
+  config:
+    step: '1'
