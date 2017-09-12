@@ -1,7 +1,7 @@
 ---
 title: Yankee Tripper
 date: 2017-09-11 19:53:32 -0400
-tags: ''
+
 images:
 - uploads/baseball.jpg
 description: 'Joe Pepitone, a kid from the Brooklyn overcomes an abusive father and

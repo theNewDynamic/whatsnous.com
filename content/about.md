@@ -2,7 +2,7 @@
 title: About Nous Entertainment
 LinkTitle: About
 date: 2017-08-01 16:40:02 -0400
-tags: ''
+
 images:
 - "/uploads/felix-mooneeram-222805.jpg"
 - "/uploads/jakob-owens-96968.jpg"
