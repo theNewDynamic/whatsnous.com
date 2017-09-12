@@ -1,0 +1,33 @@
+
+
+<div class="bg-white db center mt5 pv6">
+  {{ partial "box-follow.html" . }}
+</div>
+
+
+
+
+
+<input type="checkbox" id="expandable-nav-side-input" name="" value="" />
+{{partial "global/nav-side.html" .}}
+{{ $currentPage := . }}
+<footer class="bg-accent-color-dark bottom-0 fixed-l left-0 right-0 ph3 pv2 text-on-primary-color w-100 z-999" role="contentinfo">
+  <div class="flex-l justify-between items-center">
+    <div class="flex-l items-center justify-between">
+      {{ with .Site.Menus.main }}
+        <ul class="pa0 mh0">
+          {{ range . }}
+          <li class="list f6 fw3 dib pr3">
+            <a class="dim no-underline{{if $currentPage.IsMenuCurrent "secondary" . }} silver{{else}} color-inherit{{end}}" href="{{ .URL }}" title="{{ .Name }} page">
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+    <a class="dn db-ns f7 fw4 hover-white no-underline ph3-l pb2 pt2-l pt3 sans-serif gray" href="https://thenewdynamic.com">
+      site by the New Dynamic
+    </a>
+  </div>
+</footer>

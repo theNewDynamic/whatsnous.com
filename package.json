@@ -1,0 +1,27 @@
+{
+  "name": "thenewdynamic-hugo-core-theme",
+  "version": "1.0.0",
+  "description": "A Base Theme to start Hugo Sites",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theNewDynamic/thenewdynamic.com.git"
+  },
+  "keywords": [
+    "hugo",
+    "gohugo"
+  ],
+  "scripts": {
+    "build": "rm -rf public && hugo",
+    "start": "npm run build"
+  },
+  "author": "budparr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theNewDynamic/thenewdynamic.com/issues"
+  },
+  "homepage": "https://github.com/theNewDynamic/thenewdynamic.com#readme",
+  "devDependencies": {
+    "list.js": "^1.5.0"
+  }
+}

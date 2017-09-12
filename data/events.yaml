@@ -1,0 +1,22 @@
+colors:
+  -
+    color: "#ecaa00"
+    name: performance
+  -
+    color: "#c50f3c"
+    name: film
+  -
+    color: "#b5ada6"
+    name: discussion
+  -
+    color: "#ecaa00"
+    name: exhibit
+  -
+    color: "#4a4f55"
+    name: lecture
+  -
+    color: "#e97300"
+    name: conference
+  -
+    color: "#009aa7"
+    name: reading

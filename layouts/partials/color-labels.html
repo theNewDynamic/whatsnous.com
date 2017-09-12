@@ -1,0 +1,8 @@
+{{ range (($.Site.GetPage "taxonomyTerm" "events").Pages) }}
+  <div class="hover-bg-{{ .Title | urlize }} hover-white mb2 w-50">
+    <a href="{{ .Permalink }}" class="f6 link primary-color v-top">
+      <span class="bg-{{ .Title | urlize }} dib dim h1 w1"></span>
+      {{ .Title }}
+    </a>
+  </div>
+{{ end }}

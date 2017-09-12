@@ -1,0 +1,20 @@
+{{ $currentPage := . }}
+{{ $listlinkClasses := "color-inherit dib-l dim dn fw3 link pv2" }}
+{{ range .Site.Menus.main }}
+ <li class="mh2 ph2{{ if .HasChildren }} relative hide-child{{end}}">
+     <a href="{{.URL}}" class="v-top {{$listlinkClasses}}{{if $currentPage.IsMenuCurrent   "main" . }} o-50{{end}}">{{ .Name }}</a>
+   {{ if .HasChildren }}
+   <img src="/icons/carat-down.svg" class="dib gray nl1" height="32px" width="32px"/>
+     <ul id="{{ .Name | urlize}}" class="absolute b--dark-gray ba bg-primary-color child br2 list pl0 pv2 top-0 left-0" style="top:1.5rem;">
+       {{ range .Children }}
+         <li class="f5 hover-bg-primary-color-dark hover-light-gray moon-gray pl0 pr3 w5{{if $currentPage.IsMenuCurrent "main" . }} bg-primary-color-dark{{end}}">
+           <a href="{{.URL}}" class="color-inherit db link ph3 pv2">
+             {{ .Name }}
+           </a>
+         </li>
+       {{ end }}
+     </ul>
+   {{end}}
+
+ </li>
+{{end}}

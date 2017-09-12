@@ -1,0 +1,69 @@
+title = "Nous Entertainment"
+baseURL = "https://kjcc.netlify.com"
+languageCode = "en-us"
+theme = "thenewdynamic-hugo-core-theme"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+#SectionPagesMenu = "main"
+newContentEditor = "atom"
+Paginate = 2 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = "UA-51919693-6"
+enableRobotsTXT = true
+preserveTaxonomyNames = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON", "HEADERS", "CSS"]
+  page = ["HTML","JSON"]
+
+[mediaTypes]
+[mediaTypes."text/netlify"]
+  suffix = ""
+  delimiter = ""
+
+[outputFormats]
+[outputFormats.REDIR]
+  mediatype = "text/netlify"
+  baseName = "_redirects"
+  isPlainText = true
+  notAlternative = true
+[outputFormats.HEADERS]
+  mediatype = "text/netlify"
+  baseName = "_headers"
+  isPlainText = true
+  notAlternative = true
+
+
+
+[social]
+twitter = ""
+#facebook = ""
+#youtube = ""
+#instagram = ""
+
+[taxonomies]
+  # tag = "tags"
+  # category = "categories"
+  events = "events"
+  genre = "genre"
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  featured_image = "/uploads/gabriele-motter-145574.jpg"
+  logo = "/uploads/nous-master.png"
+  pr_footer = "For media inquiries, please contact Amy Thompson: 202.297.3462 <amymshirk@gmail.com>"
+
+[params.styles]
+body_classes = "sans-serif bg-near-white"
+content_classes = "min-vh-100"
+
+[params.dev]
+  js_path = "/static/dist/js"
+  css_path = "/static/dist/css"

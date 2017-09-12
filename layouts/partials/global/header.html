@@ -1,0 +1,32 @@
+{{ if and .Params.images  (ne .Params.feature_image false)  }}
+{{ $featured_image := index (.Params.images) 0 }}
+  {{/* Trimming the slash and adding relURL make sure the image works no matter where our site lives */}}
+  {{ $featured_image := (trim $featured_image "/") | relURL }}
+  <header class="cover bg-top white vh-100-l" style="background-image: url('{{ $featured_image }}');">
+    <div class="pb3-m pb6-l bg-black-60 h-inherit ph3 ph5-ns z-999">
+      {{ partial "global/navigation.html" . }}
+      <div class="mw8 pb5 pb0-l pt4">
+        <h1 class="f3 f1-l fw8 white-90 mb0 lh-title">
+          {{- .Title | default .Site.Title -}}
+        </h1>
+        {{ with .Params.description  }}
+          <h2 class="fw3 f5 f3-l white-80 measure-wide lh-copy mt3 mb4">
+            {{ . }}
+          </h2>
+        {{ end }}
+        <a href="#main" data-link="scroll" class="db-l dn f3 dim link pt4 light-silver">
+          read more <div class="dib mt1 v-top">{{partial "svg/arrow-down.svg" (dict "height" "50" "width" "50")}}</div>
+        </a>
+      </div>
+    </div>
+  </header>
+{{ else }}
+  <header>
+    <div class="ph3 ph5-ns {{ $.Param "styles.color_classes" | default "white bg-near-white" }}" style="background-image: url('{{$.Param "featured_image"}}');">
+      {{ partial "global/navigation.html" . }}
+      <div class="cover h6" >
+        <h1 class="f2 pb4 pt6 white">{{.Section | humanize }}</h1>
+      </div>
+    </div>
+  </header>
+{{ end }}

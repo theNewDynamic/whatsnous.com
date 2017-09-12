@@ -1,0 +1,11 @@
+{{ $section :=  where .Site.RegularPages ".Section" "news" }}
+{{/* {{ $section :=  where .Site.RegularPages ".Section" "news" }}
+{{ $section :=  $section | union (where .Site.RegularPages ".Section" "media") }} */}}
+<section class="dg g-columns-230 g-gap-2 flex-ns flex-wrap justify-between list mt5" >
+  {{ range  first 10 $section }}
+    <div class="center mr-auto-ns ml-auto-ns mw5-ns mw6 mb3 mb4-l">
+      {{ partial "summary-large.html" . }}
+    </div>
+  {{ end }}
+</section>
+{{/* dg g-columns-230 g-gap-10 */}}

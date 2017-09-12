@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{partial "article-listpage.html" .}}
+  <div id="filter" class="mw8 center">
+    {{ $section :=  (.Paginator 40).Pages }}
+    {{partial "form/filter-listjs.html" .}}
+    <section class="dg g-columns-230 g-gap-2 flex-ns flex-wrap justify-between list mt5" >
+      {{ range  $section }}
+        <div class="bcenter mr-auto-ns ml-auto-ns mw5-ns mw6 mb3 mb4-l">
+          {{ partial "summary-large.html" . }}
+        </div>
+      {{ end }}
+    </section>
+  {{ template "_internal/pagination.html" . }}
+  </div>
+{{ end }}

@@ -1,0 +1,114 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: textarea
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: show_time
+  label: Show time
+  type: boolean
+  hidden: false
+  default: true
+- name: end_date
+  label: End date
+  type: datetime
+  hidden: false
+  default: ''
+  description: If a multi-day event
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: 
+  description: Good for SEO. Keep it short.
+- name: images
+  label: Images
+  type: image_gallery
+  hidden: false
+  default: 
+- name: image_credit
+  label: Image credit
+  type: text
+  hidden: false
+  default: ''
+- name: files
+  label: Files
+  type: list
+  hidden: false
+  default: ''
+- name: event_type
+  label: Event type
+  type: list
+  hidden: false
+  default: ''
+- type: list
+  name: related
+  label: Related
+  description: Choose a related program, seminar, or residence
+  config:
+    use_select: true
+    source:
+      type: pages
+- name: program
+  label: Program
+  type: text
+  hidden: false
+  default: ''
+- name: in_residence
+  label: In residence
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: false
+- name: link
+  label: Link
+  type: text
+  hidden: false
+  default: 
+- name: venue
+  label: Venue
+  type: field_group
+  fields:
+  - name: name
+    label: Name
+    type: text
+    hidden: false
+    default: ''
+  - name: address
+    label: Address
+    type: text
+    hidden: false
+    default: ''
+  - name: city
+    label: City
+    type: text
+    hidden: false
+    default: ''
+  - name: state
+    label: State
+    type: text
+    hidden: false
+    default: ''
+  - name: zip
+    label: Zip
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
