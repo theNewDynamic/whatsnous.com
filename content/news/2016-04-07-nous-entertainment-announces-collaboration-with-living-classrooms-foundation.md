@@ -4,7 +4,7 @@ title: Nous Entertainment Announces Collaboration With Living Classrooms Foundat
 images:
 - /uploads/splash.jpg
 file:
-excerpt: Nous Entertainment LLC today announced that it has secured a third round of funding to further support development of its feature-length films
+description: Nous Entertainment LLC today announced that it has secured a third round of funding to further support development of its feature-length films
 ---
 
 

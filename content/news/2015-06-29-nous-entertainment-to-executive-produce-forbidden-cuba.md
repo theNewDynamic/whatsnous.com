@@ -4,7 +4,7 @@ title: "Nous Entertainment to Executive Produce “Forbidden Cuba”"
 images:
 - /uploads/splash.jpg
 file: "nous-entertainment-press-release-forbidden-cuba-2015-06-29.pdf"
-excerpt: "NOUS ENTERTAINMENT TO EXECUTIVE PRODUCE “*Forbidden Cuba*”   Drama-Comedy Filmed Before Embargo Lift; Depicts the Beauty of Life and Coming Change in Cuba"
+description: "NOUS ENTERTAINMENT TO EXECUTIVE PRODUCE “*Forbidden Cuba*”   Drama-Comedy Filmed Before Embargo Lift; Depicts the Beauty of Life and Coming Change in Cuba"
 ---
 **FAR HILLS, NJ – June 29, 2015** – Nous Entertainment LLC today announced that co-founders Adam Scherr and Suzan Binder will serve as Executive Producers of the feature film, *Forbidden Cuba*. Produced by Great Jones Productions and created by noted independent filmmaker Art Jones, *Forbidden Cuba* tells the story of the island nation and one lost American on the verge of revolutionary change.
 

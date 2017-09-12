@@ -4,7 +4,7 @@ published: true
 
 images:
 - /uploads/splash.jpg
-excerpt: "Nous Entertainment LLC today announced that it is in pre-production on its flagship film, *Proud Mary.* The biographical saga, which chronicles a Baltimore family over seven decades, will align with local, Baltimore resources throughout the film's development and release to support the Baltimore community"
+description: "Nous Entertainment LLC today announced that it is in pre-production on its flagship film, *Proud Mary.* The biographical saga, which chronicles a Baltimore family over seven decades, will align with local, Baltimore resources throughout the film's development and release to support the Baltimore community"
 ---
 NEW YORK, March 24, 2016 /PRNewswire/ -- [Nous Entertainment LLC](http://www.whatsnous.com/proud-mary/) today announced that it is in pre-production on its flagship film, "Proud Mary." The biographical saga, which chronicles a Baltimore family over seven decades, will align with local, Baltimore resources throughout the film's development and release to support the Baltimore community. Most immediately, the company is pleased to announce Rafael Alvarez – noted Baltimore native, writer and producer – as co-writer on the screenplay as well as a partnership with impactful non-profit, Living Classrooms.
 

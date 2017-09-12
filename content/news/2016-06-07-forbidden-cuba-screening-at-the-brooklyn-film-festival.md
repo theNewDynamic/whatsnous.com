@@ -4,7 +4,7 @@ title: Forbidden Cuba Screening at the Brooklyn Film Festival
 images:
 - /uploads/forbiddencuba.jpg
 file:
-excerpt: Forbidden Cuba Screening at the Brooklyn Film Festival on June 7th and 11th.
+description: Forbidden Cuba Screening at the Brooklyn Film Festival on June 7th and 11th.
 ---
 
 

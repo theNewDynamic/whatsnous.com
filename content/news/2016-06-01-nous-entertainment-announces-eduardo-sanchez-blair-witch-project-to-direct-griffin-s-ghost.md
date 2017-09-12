@@ -4,7 +4,7 @@ title: "Nous Entertainment Announces Eduardo Sanchez (Blair Witch Project) To Di
 images:
 - /uploads/splash.jpg
 file:
-excerpt: Nous Entertainment LLC today announced that it has secured a third round of funding to further support development of its feature-length films
+description: Nous Entertainment LLC today announced that it has secured a third round of funding to further support development of its feature-length films
 ---
 
 
