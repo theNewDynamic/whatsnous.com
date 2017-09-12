@@ -10,9 +10,6 @@
   {{range $stylesheet}}
   Link: <{{- .Name  | add "/dist/css/" -}}>; rel=preload; as=style
   {{end}}
-  {{range $scripts}}
-  Link: <{{- .Name  | add "/dist/js/" -}}>; rel=preload; as=script
-  {{end}}
   Link: </uploads/clip-forbidden-cuba-m.mp4>; rel=preload; as=video
   # Set a long cache expiry on asset urls
   {{range $stylesheet}}
