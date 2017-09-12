@@ -13,7 +13,7 @@
   {{range $scripts}}
   Link: <{{- .Name  | add "/dist/js/" -}}>; rel=preload; as=script
   {{end}}
-  Link:  /uploads/clip-forbidden-cuba-m.mp4; rel=preload; as=video
+
 
 
 
