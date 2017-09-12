@@ -13,10 +13,7 @@
 {{ $currentPage := . }}
 <footer class="bg-accent-color-dark bottom-0 fixed-l left-0 right-0 ph3 pv2 text-on-primary-color w-100 z-999" role="contentinfo">
   <div class="flex-l justify-between items-center">
-    <div class="flex-l items-center justify-between">
-      {{with .Site.Params.nyu_logo }}
-        <img src="{{.}}" class="h2 mt2 mr5-l"/>
-      {{end}}
+    <div class="flex-l items-center justify-between">    
       {{ with .Site.Menus.secondary }}
         <ul class="pa0 mh0">
           {{ range . }}

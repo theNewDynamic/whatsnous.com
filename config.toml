@@ -1,15 +1,14 @@
-title = "NYU KJCC"
+title = "Nous Entertainment"
 baseURL = "https://kjcc.netlify.com"
 languageCode = "en-us"
 theme = "thenewdynamic-hugo-core-theme"
-
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 #SectionPagesMenu = "main"
 newContentEditor = "atom"
 Paginate = 2 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = "UA-59177248-2"
+googleAnalytics = "UA-51919693-6"
 enableRobotsTXT = true
 preserveTaxonomyNames = true
 
@@ -55,14 +54,13 @@ twitter = ""
   filename = "sitemap.xml"
 
 [params]
-  description = "King Juan Carlos I of Spain Center"
+  
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  #featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-  nyu_logo = "/icons/nyu_long_white.png"
+  featured_image = "/uploads/luca-bravo-207056.jpg"
 
 [params.styles]
 body_classes = "sans-serif bg-near-white"
-content_classes = "content-with-sidebarTK min-vh-100"
+content_classes = "min-vh-100"
 
 [params.dev]
   js_path = "/static/dist/js"

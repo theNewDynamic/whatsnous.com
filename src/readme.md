@@ -4,9 +4,6 @@ The contents of this folder are used to generate CSS and javascript. You may nev
 
 ## Tools
 
-### Yarn
-
-We use [Yarn](https://yarnpkg.com) for package managment (instead of NPM) because it's fast and generates a lock file to make dependency management more consistent. The theme's `.gitignore` file should be kept intact to make sure that all files in the `node_modules` folder are not pushed to the repository.
 
 ### Webpack
 

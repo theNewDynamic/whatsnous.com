@@ -2,7 +2,6 @@
   {{partial "article-listpage.html" .}}
   <div id="filter" class="mw8 center">
     {{ $section :=  (.Paginator 40).Pages }}
-    {{partial "form/filter-listjs.html" .}}
     <section class="flex-ns flex-wrap justify-around list mt5">
       {{ range  $section }}
         <div class="list relative w-100  mb4 bg-white">

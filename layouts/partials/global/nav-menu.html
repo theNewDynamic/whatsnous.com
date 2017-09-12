@@ -1,5 +1,5 @@
 {{ $currentPage := . }}
-{{ $listlinkClasses := "color-inherit dib-l dim dn f5 fw3 link pv2" }}
+{{ $listlinkClasses := "color-inherit dib-l dim dn fw3 link pv2" }}
 {{ range .Site.Menus.main }}
  <li class="mh2 ph2{{ if .HasChildren }} relative hide-child{{end}}">
      <a href="{{.URL}}" class="v-top {{$listlinkClasses}}{{if $currentPage.IsMenuCurrent   "main" . }} o-50{{end}}">{{ .Name }}</a>
@@ -18,8 +18,3 @@
 
  </li>
 {{end}}
-{{/* For this menu item, we want the link to go to the latest person who is "in residence" */}}
-{{$link := index (where .Site.RegularPages ".Section" "in-residence") 0}}
-<li class="mh2 ph2">
-<a href="{{$link.URL}}" class="{{$listlinkClasses}}">In Residence</a>
-</li>

@@ -1,6 +1,4 @@
 ---
-title: The King Juan Carlos I of Spain Center
-description: "The King Juan Carlos I of Spain Center promotes research and teaching on Spain and the Spanish-speaking world at New York University, including free public programs for a general audience that highlight the history, politics and cultures of the Spanish-speaking world."
-images:
-  - "/uploads/kjcc-door.jpg"
+title: "What's Nous"
+description: "We are storytellers who celebrate the strength and depth of the human intellect and its ability to create joy as well as enact change. We use film – including theatrical, feature-length, digital and television formats – as our vehicle for distributing inspiring narratives and entertaining stories."
 ---

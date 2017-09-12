@@ -3,7 +3,7 @@ input[type=checkbox]#expandable-nav-side-input {
    display: none;
 }
 #expandable-nav-side {
-  transform: translateX(-320px)
+  transform: translateX(var(--sidebar-width))
  }
 
 #expandable-nav-side-input:checked + #expandable-nav-side {

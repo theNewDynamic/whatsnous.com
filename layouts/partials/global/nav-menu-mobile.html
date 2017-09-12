@@ -24,16 +24,10 @@
        {{ end }}
      </ul>
    {{end}}
-
- </li>
+<br />
 {{end}}
 {{/* For this menu item, we want the link to go to the latest person who is "in residence" */}}
 
-
-
-{{$link := index (where .Site.RegularPages ".Section" "in-residence") 0}}
-
-<a href="{{$link.URL}}" class="mb5 {{$listlinkClasses}}">In Residence</a>
 
 <style>
 input.child-menu-button + .child-menu {

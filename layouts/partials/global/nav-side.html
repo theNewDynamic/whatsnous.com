@@ -1,10 +1,9 @@
-{{ $events := where (.Site.RegularPages) ".Section" "event" }}
-{{ $events_upcoming := where $events.Reverse ".Date.Unix" "ge" now.Unix }}
-{{ $events_past := where $events ".Date.Unix" "<" now.Unix }}
+{{ $news := where (.Site.RegularPages) ".Section" "news" }}
+
 {{/* {{if not .IsHome}}id="expandable-nav-side"{{end}} */}}
-<div id="expandable-nav-side" class="sidebar bottom-0 expandable flex flex-column fixed top-0 left-0 height-100 transition bg-near-white overflow-y-scroll pt5 w-sidebar-lg z-99" role="banner" data-search-index="false">
+<div id="expandable-nav-side" class="sidebar bottom-0 expandable flex flex-column fixed top-0 right-0 height-100 transition bg-near-white overflow-y-scroll pt5 w-sidebar-lg z-99" role="banner" data-search-index="false">
 {{/* {{if not .IsHome}}IF using the permanent sidebar on home page, put this around the close label{{end}} */}}
-  <label for="expandable-nav-side-input" class="absolute db hover-red pointer text-decoration-none mr4 mt3 moon-gray toggle top-0 transition left-0 z-9999">
+  <label for="expandable-nav-side-input" class="absolute db hover-red pointer text-decoration-none mr4 mt3 moon-gray toggle top-0 transition right-0 z-9999">
     {{- partial "svg/ic_close_black_24px.svg" (dict "width" "36" "height" "36") -}}
   </label>
 
@@ -12,19 +11,13 @@
     {{partial "global/nav-menu-mobile.html" .}}
   </div>
 
-  <ul class="dib hidden list ma0 pb6 ph2 ml2 scrolling-touch tc">
-  {{if $events_upcoming}}
-  <li class="accent-color f4 mb2">Upcoming Events</li>
-    {{ range $events_upcoming }}
-      {{.Render "view-list"}}
-    {{end}}
-    {{else }}
+  <ul class="dib hidden list ma0 pb6 ph2 ml2 scrolling-touch">
     {{/* <li class="accent-color mb2">No Upcoming Events</li> */}}
-    <li class="accent-color f4 tl">Past Events</li>
-    {{ range first 8 $events_past }}
-        {{.Render "view-list-past-events"}}
+
+    {{ range first 4 $news }}
+        {{partial "summary-no-image.html" .}}
     {{end}}
-    {{end}}
+
     </ul>
 
   <div class="colortk center db mb3 w-80">

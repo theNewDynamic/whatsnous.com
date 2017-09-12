@@ -1,7 +1,4 @@
-
 {{ if and .Params.images  (ne .Params.feature_image false)  }}
-
-
 {{ $featured_image := index (.Params.images) 0 }}
   {{/* Trimming the slash and adding relURL make sure the image works no matter where our site lives */}}
   {{ $featured_image := (trim $featured_image "/") | relURL }}
@@ -27,10 +24,9 @@
   <header>
     <div class="{{ $.Param "styles.color_classes" | default "bg-white" }}">
       {{ partial "global/navigation.html" . }}
-      <div class="cover h6 ph4" style="background-image: url('/images/kjcc-graphic.jpg');">
+      <div class="cover h6 ph4" style="background-image: url('{{$.Param "featured_image"}}');">
         <h1 class="f2 pb4 pt6 white">{{.Section | humanize }}</h1>
       </div>
-      {{partial "components/embed-map.html" .}}
     </div>
   </header>
 {{ end }}
