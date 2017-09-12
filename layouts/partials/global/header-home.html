@@ -1,9 +1,7 @@
-{{ if and .Params.images  (ne .Params.feature_image false)  }}
 {{ $featured_image := index (.Params.images) 0 }}
   {{/* Trimming the slash and adding relURL make sure the image works no matter where our site lives */}}
   {{ $featured_image := (trim $featured_image "/") | relURL }}
-  <header id="header" class="cover bg-top white vh-100-l" style="background-image: url('{{ $featured_image }}');
-  {{ if .IsHome }}background:none;{{end}}">
+  <header id="header" class="cover relative bg-top white vh-100-l">
     <div class="bg-black-60 pb3-m pb6-l ph3 ph5-ns h-inherit z-999">
       {{ partial "global/navigation.html" . }}
       <div class="mw8 pb5 pb0-l pt4">
@@ -21,10 +19,14 @@
       </div>
       <button class="pause absolute bg-dark-gray bn br1 f7 o-80 bottom-0 right-0 mb6 mr5 white">pause</button>
       <button class="mute absolute bg-dark-gray bn br1 f7 o-80 bottom-0 right-0 mb6 mr6 white">unmute</button>
+
+      <video  id="video-background"  playsinline autoplay muted loop>
+        <source src="/uploads/clip-forbidden-cuba-m.mp4" type="video/mp4">
+      </video>
     </div>
 
   </header>
-{{ end }}
+
 
 {{/* <div class="lazyload" data-noscript="">
   <noscript>
@@ -34,14 +36,31 @@
   </noscript>
 </div> */}}
 
-  <video  id="video-background" poster="/uploads/felix-mooneeram-222805.jpg" playsinline autoplay muted loop>
-    <source src="/uploads/clip-forbidden-cuba-m.mp4" type="video/mp4">
-  </video>
+
 
 
 <style>
+
+#header {
+  background-image: url('{{$featured_image}}');
+}
+#video-background {
+  display: none;
+}
+button {
+  display: none;
+}
+@media screen and (min-width:60em) {
+  #header {
+    background-image: none;
+  }
+
+  button {
+    display: inline-block;
+  }
 #video-background {
 /*  making the video fullscreen  */
+display: block;
   position: absolute;
   top:0;
   right: 0;
@@ -52,7 +71,7 @@
   height: 100vh;
   z-index: -100;
    /*transform: translateX(-50%) translateY(-50%);*/
-   background: url('/uploads/felix-mooneeram-222805.jpg') no-repeat;
+   /*background: url('/uploads/felix-mooneeram-222805.jpg') no-repeat;*/
     background-size: cover;
     transition: 1s opacity;
 
@@ -60,6 +79,7 @@
 
 .stopfade {
    opacity: .5;
+}
 }
 </style>
 
@@ -89,7 +109,7 @@ vidFade();
 
 
 pauseButton.addEventListener("click", function() {
-  vid.classList.toggle("stopfade");
+  // vid.classList.toggle("stopfade");
   if (vid.paused) {
     vid.play();
     pauseButton.innerHTML = "Pause";
