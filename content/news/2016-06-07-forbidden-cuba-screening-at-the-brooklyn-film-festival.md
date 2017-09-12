@@ -1,13 +1,12 @@
 ---
 title: Forbidden Cuba Screening at the Brooklyn Film Festival
-
 images:
-- /uploads/forbiddencuba.jpg
-file:
-description: Forbidden Cuba Screening at the Brooklyn Film Festival on June 7th and 11th.
+- "/uploads/forbiddencuba.jpg"
+file: ''
+description: Forbidden Cuba Screening at the Brooklyn Film Festival on June 7th and
+  11th.
+
 ---
-
-
 Forbidden Cuba Screening at the [Brooklyn Film Festival](//www.brooklynfilmfestival.org/films/detail.asp?fid=1679). June 7th and June 11th. [Click here for more information](//www.brooklynfilmfestival.org/films/detail.asp?fid=1679).
 
 *The June 11 screening will be followed by the PANEL DISCUSSION: "What's at Stake in a Rapidly Changing Cuba"*

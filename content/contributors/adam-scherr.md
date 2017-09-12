@@ -1,11 +1,11 @@
 ---
 title: Adam Scherr
 images:
-- /uploads/headshot-scherr.jpg
-image_credit: "you"
+- "/uploads/headshot-scherr.jpg"
+image_credit: you
 feature_image: false
----
 
+---
 Adam Scherr is the co-founder of Nous Entertainment where he drives the creative vision for the production company and its film and storytelling projects. Adam leads the development of strategic and philanthropic partnerships for the company, helping to align entertainment with impact. His diverse background in business management, media relations, social causes, film and theater brings a cross-disciplined approach to managing Nous Entertainment and its mission.
 
  Adam is the co-writer, director and producer of “Proud Mary,” a biographical film currently in pre-production. He is also serving as producer of the films "Griffin's Ghost," and “Judas Horse,” which is based on a true story. Adam is also the co-creator of the television series, “Savage Manor,” which is currently in development.

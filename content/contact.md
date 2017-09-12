@@ -1,15 +1,15 @@
 ---
-title: "Contact"
-date: 2017-08-01T16:52:14-04:00
-tags:
-images: ""
-description: ""
+title: Contact
+date: 2017-08-01 16:52:14 -0400
+tags: ''
+images: ''
+description: ''
 type: map
+url: "/contact/"
+map_address: 53 Washington Square South New York, NY 10012
 menu:
   main:
-    weight: 15
-url: /contact/
-map_address: "53 Washington Square South New York, NY 10012"
+    weight: 4
 
 ---
 Copy Goes Here

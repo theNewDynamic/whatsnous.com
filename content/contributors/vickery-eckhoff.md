@@ -1,5 +1,5 @@
 ---
 title: Vickery Eckhoff
----
 
+---
 Vickery Eckhoff is a New York City-based writer whose coverage of the horse slaughter trade has been at the forefront of an ongoing discussion by the news media, legislators, lobbyists, industry and the public. Vickery’s Forbes article on Paula Bacon (on which The Judas Horse is based) was the first to chronicle slaughter’s exploitation, not just of horses, but of small-town people and their way of life. Her story has been cited by lawmakers—from US congressmen to members of Parliament in Canada—looking to shut down this unregulated, predatory industry. Part of an extensive, popular series praised for its accuracy and research, Vickery's writing has also exposed the pipeline of racehorses to slaughter, wild horse politics and roundups (for Forbes); billionaire welfare ranchers (AlterNet and Salon); and horse drugs and food hazards (Newsweek/The Daily Beast and the Huffington Post).

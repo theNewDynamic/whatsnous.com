@@ -1,14 +1,14 @@
 ---
-title: "Forbidden Cuba"
-date: 2016-09-11T23:36:58-04:00
+title: Forbidden Cuba
+date: 2016-09-11 23:36:58 -0400
 images:
-  - /uploads/forbiddencuba.jpg
-  - /uploads/forbidden-cuba.jpg
-  - /uploads/forbidden-cuba-accolades.png
-description: "An American businessman travels to Cuba to find an executive gone rogue, and finds his eyes opened to the beauty and vibrant culture of Cuba, challenging his corporate directives, his identity and everything he has known. "
-menu:
-  main:
-    parent: Productions
+- "/uploads/forbiddencuba.jpg"
+- "/uploads/forbidden-cuba.jpg"
+- "/uploads/forbidden-cuba-accolades.png"
+description: 'An American businessman travels to Cuba to find an executive gone rogue,
+  and finds his eyes opened to the beauty and vibrant culture of Cuba, challenging
+  his corporate directives, his identity and everything he has known. '
+
 ---
 ## He wanted a promotion. He got a revolution.
 
