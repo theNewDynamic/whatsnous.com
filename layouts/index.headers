@@ -1,7 +1,6 @@
 /*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
-  {{with $.Param "content-security-policy"}}  Content-Security-Policy: {{.}}{{end}}
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer-when-downgrade
 
@@ -13,9 +12,6 @@
   {{range $scripts}}
   Link: <{{- .Name  | add "/dist/js/" -}}>; rel=preload; as=script
   {{end}}
-
-
-
 
   # Set a long cache expiry on asset urls
   {{range $stylesheet}}
