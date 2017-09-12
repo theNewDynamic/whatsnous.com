@@ -3,22 +3,3 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer-when-downgrade
-
-/*
-  {{$stylesheet := readDir ( $.Param "dev.css_path")}}{{$scripts := readDir  (.Site.Params.js_path)}}
-  {{range $stylesheet}}
-  Link: <{{- .Name  | add "/dist/css/" -}}>; rel=preload; as=style
-  {{end}}
-  {{range $scripts}}
-  Link: <{{- .Name  | add "/dist/js/" -}}>; rel=preload; as=script
-  {{end}}
-
-  # Set a long cache expiry on asset urls
-  {{range $stylesheet}}
-  {{.Name  | add "/dist/css/"}}
-  Cache-Control: public, max-age=31556926
-  {{end }}
-  {{range $scripts}}
-  {{.Name  | add "/dist/js/"}}
-  Cache-Control: public, max-age=31556926
-  {{end}}

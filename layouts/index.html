@@ -13,6 +13,14 @@
       {{ partial "box-follow.html" . }}
     </div>
 
+
+    {{$stylesheet := readDir ($.Param "dev.css_path")}}{{$scripts := readDir (.Site.Params.js_path)}}
+    {{range $stylesheet}}
+    Link: <{{- .Name  | add "/dist/css/" -}}>; rel=preload; as=style <br />
+    {{end}}
+    {{range $scripts}}
+    Link: <{{- .Name  | add "/dist/js/" -}}>; rel=preload; as=script<br />
+    {{end}}
     {{/* <div class="center pt6">
       <div class="flex-l justify-between">
         {{partial "color-labels.html" .}}
