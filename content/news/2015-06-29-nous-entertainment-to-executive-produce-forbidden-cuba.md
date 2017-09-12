@@ -19,4 +19,4 @@ The film was shot on location in Cuba by Jones and his team of four without stud
 Nous Entertainment expects *Forbidden Cuba* to be available to public audiences at international film festivals in the fall of 2015 and winter of 2016. To learn more about the film and the filming process, visit Deadline or Tribeca Film.
 
 
-{% include pr-footer.html %}
+

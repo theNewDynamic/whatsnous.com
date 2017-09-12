@@ -25,9 +25,7 @@ To contribute to the CED Society, please mail donations to Partnerships for Chan
 
                                                 ###
 
-**Media Contact**** :**
-Amy Thompson
-202.297.3462
-amymshirk@gmail.com
-
-{% include pr-footer.html %}
+**Media Contact** \\
+Amy Thompson \\
+202.297.3462  \\
+<amymshirk@gmail.com>

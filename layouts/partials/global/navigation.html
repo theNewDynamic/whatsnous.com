@@ -1,10 +1,10 @@
 <nav class="pb2 pt3 ph3 ph2-ns" role="navigation">
-  <div class="flex justify-between items-start items-center-l center">
-    <div class="flex items-end">
+  <div class="flex items-start">
+    <div class="flex flex-wrap items-end">
       <div class="db dn-ns absolute right-0 mr2 mt2 mt1-l pt1 pt0-l top-0">
         {{partial "global/nav-toggle-button.html" .}}
       </div>
-      <a href="/" class="color-inherit db dim f2 fw9 lh-title ml2-ns nb3 no-underline mw6">
+      <a href="/" class="color-inherit db dim f2 fw9 lh-title ml2-ns no-underline mw5 mw6-ns">
         {{ .Site.Title }}
         {{with .Site.Params.Description }}
           <span class="fw3 f5 light-silver static db">
@@ -12,11 +12,12 @@
           </span>
         {{end}}
       </a>
-      <ul class="dib flex f4 flex-wrap list ml4 mv0 menu ph0">
+      </div>
+      <ul class="dn dib-ns list ml4 pa0 menu ph0">
         {{partial "global/nav-menu.html" .}}
       </ul>
       {{ partial "social-follow.html" . }}
-    </div>
+
   </div>
 
 </nav>

@@ -5,18 +5,15 @@ date: 2017-08-01T16:40:02-04:00
 tags:
 images:
   - "/uploads/jakob-owens-96968.jpg"
-image_credit: "Jose Carlos Casado"
-description: ""
+image_credit: ""
+description: "Nous Entertainment LLC is an independent production company focused on the development, marketing and distribution of film and television programming aimed at balancing entertainment with issue-driven content."
 menu:
   secondary:
     weight: 1
 
 ---
-### Nous Entertainment LLC is an independent production company focused on the development, marketing and distribution of film and television programming aimed at balancing entertainment with issue-driven content.
+### In the past decade, several dynamic forces have converged to make Nous Entertainment a reality. Today’s technology, content distribution models and a changing economic environment have paved the way for emerging production companies to successfully conceive of, and execute on, compelling programming and stories.
 
----
-
-In the past decade, several dynamic forces have converged to make Nous Entertainment a reality. Today’s technology, content distribution models and a changing economic environment have paved the way for emerging production companies to successfully conceive of, and execute on, compelling programming and stories.
 Our venture and private equity-funded business model provides us the flexibility to strategically partner and support projects that align with our mission and goals – distribute inspiring, illuminating and entertaining stories that celebrate the human intellect.
 Nous Entertainment is an east coast-based Limited Liability Corporation.
 

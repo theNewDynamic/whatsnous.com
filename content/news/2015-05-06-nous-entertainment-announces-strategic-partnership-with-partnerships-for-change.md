@@ -17,4 +17,4 @@ PFC has committed to support the production company’s first two film projects,
 *Goodness and Mercy* and *The Judas Horse* will be the first films released through Nous Entertainment. Both are timely explorations of topics related to the human conscious and its ability to create meaningful interpersonal connections as well as enact change.
 
 
-{% include pr-footer.html %}
+

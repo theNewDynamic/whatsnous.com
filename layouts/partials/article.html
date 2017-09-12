@@ -10,6 +10,10 @@
       <img src="{{ index .Params.images 0 }}" class="fl mb2 mr3 mt2 mw5 shadow-5" alt="Image from {{ .Title }}" />
     {{ end }}
     {{ .Content }}
+    {{if eq .Section "news"}}
+      <div class="f6 7 mt5 nested-links">{{$.Param "pr_footer" |markdownify}}</div>
+    {{end}}
+
     {{with .Params.embed}}
       {{. |safeHTML}}
     {{end}}

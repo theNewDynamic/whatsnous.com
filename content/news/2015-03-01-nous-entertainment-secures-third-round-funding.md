@@ -11,4 +11,4 @@ excerpt: "Nous Entertainment LLC today announced that it has secured a third rou
 
 The recent funding follows two successful rounds of fundraising from venture capital and private equity partners since 2014. Nous Entertainment is currently in the development phase for several of its television and film programs and screenplays.
 
-{% include pr-footer.html %}
+

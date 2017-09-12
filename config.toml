@@ -54,9 +54,10 @@ twitter = ""
   filename = "sitemap.xml"
 
 [params]
-  
+
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   featured_image = "/uploads/luca-bravo-207056.jpg"
+  pr_footer = "For media inquiries, please contact Amy Thompson: 202.297.3462 <amymshirk@gmail.com>"
 
 [params.styles]
 body_classes = "sans-serif bg-near-white"

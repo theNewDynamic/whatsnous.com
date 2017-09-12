@@ -1,0 +1,24 @@
+{{ $currentPage := . }}
+{{ $listlinkClasses := "fw6 color-inherit db dim f5 fw3 link ph3 pv2" }}
+<div class="v-top {{if $currentPage.IsMenuCurrent   "main" . }} o-50{{end}}">
+ {{ if .HasChildren }}
+    <label for="child-menu-button-{{.Name |urlize}}" class="{{$listlinkClasses}}">
+     {{- .Name -}}
+       <img src="/icons/carat-down.svg" class="dib v-mid gray" height="22px" width="22px"/>
+    </label>
+ {{else}}
+<a href="{{.URL}}" class="{{$listlinkClasses}}">{{ .Name }}</a>
+{{end}}
+</div>
+{{ if .HasChildren }}
+<input type="checkbox" name="child-menu-button" class="child-menu-button clip" id="child-menu-button-{{.Name |urlize}}" />
+<ul class="child-menu b--dark-gray ba bg-primary-color child list pl0 pv2">
+  {{ range .Children }}
+    <li class="f6 hover-bg-primary-color-dark hover-light-gray moon-gray pl0 pr3{{if $currentPage.IsMenuCurrent "main" . }} bg-primary-color-dark{{end}}">
+      <a href="{{.URL}}" class="color-inherit db link ph3 pv2">
+        {{ .Name }}
+      </a>
+    </li>
+  {{ end }}
+</ul>
+{{end}}
