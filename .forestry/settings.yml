@@ -5,14 +5,10 @@ body_file_url_template: "/uploads"
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
-webhook_url:
-version: '0.26'
+webhook_url: 
 sections:
-  page:
-    default_front_matter_template: default
   contributors:
     default_front_matter_template: default
-  news:
-    default_front_matter_template: news
   production:
     default_front_matter_template: default
+version: '0.26'
