@@ -1,5 +1,6 @@
 ---
 title: Eduardo Sanchez
+
 ---
 Eduardo Sanchez was born in Cuba in 1968.  He studied Television Production at Montgomery College in Rockville, MD and received his BA in Motion Picture Production from the University of Central Florida in 1994. 
 It was at UCF where Eduardo met his future Haxan Films partners and in 1998 he co-wrote, co-edited and co-directed THE BLAIR WITCH PROJECT.  He also designed and built the original BLAIRWITCH.COM website and co-directed the TV special CURSE OF THE BLAIR WITCH for the SciFi Channel.  

@@ -1,5 +1,6 @@
 ---
-title: "Luke Taylor"
+title: Luke Taylor
+
 ---
 Luke Taylor is the co-founder and COO of **Buffalo 8 Productions**, a feature film and digital production / post-production company with credits including award-winning films such as _As You Are, Little Men_, and a new Netflix Original film set for an April 2017 release from director Spike Lee, _Rodney King_.
 

@@ -1,17 +1,14 @@
 ---
-title: "Q1 2017 Update: Coodie & Chike, Ed Sanchez, Laurie Weltz and Staci R. Collins Jackson "
-published: true
-date: 2017-03-10T00:00:00.000Z
+title: 'Q1 2017 Update: Coodie & Chike, Ed Sanchez, Laurie Weltz and Staci R. Collins
+  Jackson '
+date: 2017-03-10 00:00:00 +0000
 category: news
-
 images:
-- /uploads/splash.jpg
-file_path:
-description:
+- "/uploads/splash.jpg"
+file_path: ''
+description: ''
+
 ---
-
-
-
 **With 2017 well underway, we are pleased to report great progress on all the Nous Entertainment projects.**
 
 

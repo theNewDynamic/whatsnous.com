@@ -1,13 +1,12 @@
 ---
 title: Nous Entertainment Announces Collaboration With Living Classrooms Foundation
-
 images:
-- /uploads/splash.jpg
-file:
-description: Nous Entertainment LLC today announced that it has secured a third round of funding to further support development of its feature-length films
+- "/uploads/splash.jpg"
+file: ''
+description: Nous Entertainment LLC today announced that it has secured a third round
+  of funding to further support development of its feature-length films
+
 ---
-
-
 **Proceeds from 'Proud Mary' to Fund New Educational Facility, Programs**
 
 NEW YORK, April 7, 2016 (Newswire.com) - ​​Nous Entertainment LLC today announces the details of its alliance with the Living Classrooms Foundation, a Baltimore-based non-profit focused on strengthening communities through education. The collaboration will enable Nous to provide proceeds from its upcoming Baltimore-centric biographical film, “Proud Mary,” to the Foundation to expand the Crossroads School.

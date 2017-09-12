@@ -1,13 +1,16 @@
 ---
-title: "About Nous Entertainment"
+title: About Nous Entertainment
 LinkTitle: About
-date: 2017-08-01T16:40:02-04:00
-tags:
+date: 2017-08-01 16:40:02 -0400
+tags: ''
 images:
-  - /uploads/felix-mooneeram-222805.jpg
-  - "/uploads/jakob-owens-96968.jpg"
-image_credit: ""
-description: "Nous Entertainment LLC is an independent production company focused on the development, marketing and distribution of film and television programming aimed at balancing entertainment with issue-driven content."
+- "/uploads/felix-mooneeram-222805.jpg"
+- "/uploads/jakob-owens-96968.jpg"
+image_credit: ''
+description: Nous Entertainment LLC is an independent production company focused on
+  the development, marketing and distribution of film and television programming aimed
+  at balancing entertainment with issue-driven content.
+type: page
 menu:
   main:
     weight: 3

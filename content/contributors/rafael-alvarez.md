@@ -1,7 +1,7 @@
 ---
 title: Rafael Alvarez
----
 
+---
 Rafael Alvarez is an author and screenwriter based in Baltimore and Los Angeles.
 
 A former City Desk reporter for the Baltimore Sun, Alvarez is the author of ten books, including the short story collection "Orlo & Leini," and most recently a non-fiction anthology titled "Crabtown, USA."
