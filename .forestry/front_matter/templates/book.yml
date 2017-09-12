@@ -1,0 +1,60 @@
+---
+hide_body: false
+fields:
+- name: subtitle
+  label: Subtitle
+  type: text
+  hidden: false
+  default: 
+- name: date
+  label: Date
+  type: field_group
+  hidden: false
+  default: {}
+- name: publication_date
+  label: Publication date
+  type: field_group
+  hidden: false
+  default: {}
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: false
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: 
+- name: genre
+  label: Genre
+  type: tag_list
+  hidden: false
+  default:
+  - fiction
+- name: editions_isbn
+  label: Editions isbn
+  type: field_group
+  fields:
+  - name: hardcover
+    label: Hardcover
+    type: text
+    hidden: false
+    default: ''
+  - name: paperback
+    label: Paperback
+    type: text
+    hidden: false
+    default: ''
+  - name: ebook
+    label: Ebook
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: images
+  label: Images
+  type: text
+  hidden: false
+  default: 
