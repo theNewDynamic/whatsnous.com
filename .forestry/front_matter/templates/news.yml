@@ -20,3 +20,6 @@ fields:
 - type: text
   name: image_credit
   label: Image Credit
+- type: file
+  name: file
+  label: File
