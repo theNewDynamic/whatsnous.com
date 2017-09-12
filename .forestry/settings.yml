@@ -13,6 +13,6 @@ sections:
   contributors:
     default_front_matter_template: default
   news:
-    default_front_matter_template: default
+    default_front_matter_template: news
   production:
     default_front_matter_template: default

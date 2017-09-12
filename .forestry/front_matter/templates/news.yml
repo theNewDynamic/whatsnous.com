@@ -1,0 +1,22 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: description
+  label: Description
+- type: image_gallery
+  name: images
+  label: Images
+  description: The first image will be shown at the top of the page
+- type: boolean
+  name: feature_image
+  label: Feature Image
+  description: If you turn this off the image will show in the body copy instead of
+    the top of the page
+  hidden: true
+- type: text
+  name: image_credit
+  label: Image Credit
