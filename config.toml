@@ -65,5 +65,5 @@ body_classes = "sans-serif bg-near-white"
 content_classes = "min-vh-100"
 
 [params.dev]
-  js_path = "/static/dist/js"
-  css_path = "/static/dist/css"
+js_path = "/static/dist/js"
+css_path = "/static/dist/css"
