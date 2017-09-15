@@ -1,12 +1,11 @@
 ---
 date: 2017-09-15 13:49:59 -0400
 description: "The Whole Story is a podcast modeled after that panel discussion at
-  storytelling festivals that you always miss. \L"
+  storytelling festivals that you always miss."
 feature_image: true
 image_credit: ''
 images:
 - "/uploads/splash-the-whole-storyx500.png"
-tags: ''
 title: The Whole Story Podcast
 
 ---
