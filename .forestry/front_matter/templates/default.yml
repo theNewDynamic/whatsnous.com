@@ -19,7 +19,7 @@ fields:
   label: Feature Image
   description: If you turn this off the image will show in the body copy instead of
     the top of the page
-  hidden: ''
+  hidden: false
   default: true
 - type: text
   name: image_credit
