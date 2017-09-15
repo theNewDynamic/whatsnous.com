@@ -1,14 +1,13 @@
 ---
-date: 2017-09-15 17:49:59 +0000
-tags: ''
-images:
-- "/uploads/splash-the-whole-storyx500.png"
-title: The Whole Story Podcast
-feature_image: true
+date: 2017-09-15 13:49:59 -0400
 description: "The Whole Story is a podcast modeled after that panel discussion at
   storytelling festivals that you always miss. \L"
+feature_image: true
 image_credit: ''
-draft: true
+images:
+- "/uploads/splash-the-whole-storyx500.png"
+tags: ''
+title: The Whole Story Podcast
 
 ---
 
