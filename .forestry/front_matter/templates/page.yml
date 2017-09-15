@@ -1,6 +1,6 @@
 ---
 pages:
-- test-1.md
+- production/a-new-test.md
 hide_body: false
 fields:
 - type: text
