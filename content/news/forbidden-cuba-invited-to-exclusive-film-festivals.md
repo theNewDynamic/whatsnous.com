@@ -7,7 +7,6 @@ file: "/uploads/Press.Release.ForbiddenCuba.2017.pdf"
 description: ''
 feature_image: false
 image_credit: ''
-draft: true
 
 ---
 
