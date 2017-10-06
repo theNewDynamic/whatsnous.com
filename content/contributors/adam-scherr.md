@@ -5,7 +5,7 @@ images:
 - "/uploads/headshot-scherr.jpg"
 image_credit: you
 feature_image: false
-date: ''
+date: 2017-02-22 00:00:00 -0500
 description: ''
 
 ---
