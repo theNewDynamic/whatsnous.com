@@ -1,9 +1,12 @@
 ---
 title: Adam Scherr
 images:
+- "/uploads/adam.jpg"
 - "/uploads/headshot-scherr.jpg"
 image_credit: you
 feature_image: false
+date: ''
+description: ''
 
 ---
 Adam Scherr is the co-founder of Nous Entertainment where he drives the creative vision for the production company and its film and storytelling projects. Adam leads the development of strategic and philanthropic partnerships for the company, helping to align entertainment with impact. His diverse background in business management, media relations, social causes, film and theater brings a cross-disciplined approach to managing Nous Entertainment and its mission.
