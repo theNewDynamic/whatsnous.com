@@ -1,4 +1,7 @@
 ---
+pages:
+- production/brooklyn-all-american.md
+- production/the-night-swimmer.md
 hide_body: false
 fields:
 - type: text
@@ -24,3 +27,17 @@ fields:
 - type: text
   name: image_credit
   label: Image Credit
+- type: field_group_list
+  label: People
+  name: people
+  fields:
+  - type: select
+    name: contributor
+    config:
+      source:
+        type: pages
+        section: contributors
+    label: Contributor
+  - type: text
+    name: role
+    label: Role
