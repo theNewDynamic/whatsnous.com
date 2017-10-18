@@ -7,10 +7,10 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-  contributors:
+  production:
     default_front_matter_template: page
   news:
     default_front_matter_template: news
-  production:
+  contributors:
     default_front_matter_template: page
 version: '0.26'
