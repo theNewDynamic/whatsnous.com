@@ -9,7 +9,6 @@ images:
 - "/uploads/alexander-rotker-332322.jpg"
 people: []
 title: Brooklyn All American
-draft: true
 
 ---
 ![](/uploads/brooklyn_all_american_poster.jpg)Our story is unique and compelling with a broad demographic appeal. We start in Brooklyn, travel to Louisiana, and reach our conclusion back in Brooklyn. Our protagonist, ***Moishe Katzov***, succeeds in finding his true self against all odds. It’s a culture-clash comedy of errors that has him being pushed and pulled in unimaginable directions.
