@@ -5,7 +5,8 @@ date: 2017-10-17 22:12:28 +0000
 description: Brooklyn All American is the story of a young man blessed with unintentional
   greatness who leaves his home on an adventure and comes full circle, returning to
   the place he loves.
-images: []
+images:
+- "/uploads/brooklyn_all_american_poster.jpg"
 image_credit: ''
 people: []
 draft: true

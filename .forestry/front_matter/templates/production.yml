@@ -1,7 +1,4 @@
 ---
-pages:
-- production/brooklyn-all-american.md
-- production/the-night-swimmer.md
 hide_body: false
 fields:
 - type: text
