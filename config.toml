@@ -11,7 +11,7 @@ theme = "thenewdynamic-hugo-core-theme"
 title = "Nous Entertainment"
 [mediaTypes."text/netlify"]
 delimiter = ""
-suffix = ""
+suffixes = ""
 [outputFormats.HEADERS]
 baseName = "_headers"
 isPlainText = true

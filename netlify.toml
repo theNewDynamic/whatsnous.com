@@ -1,23 +1,26 @@
 [build]
-  publish = "public"
-  command = "hugo"
+publish = "public"
+command = "hugo --gc --minify"
+#command = "yarn start"
+#functions = "static/.functions"
+
+
+[build.environment]
+HUGO_VERSION = "0.48"
 
 [context.production.environment]
-  HUGO_VERSION = "0.26"
-  HUGO_ENV = "production"
+# Uncomment the next line when moving site to production
+# HUGO_ENV = "production"
+#HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview]
+command = "hugo --gc -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+command = "hugo --gc -b $DEPLOY_URL"
 
 
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.26"
 
-[context.branch-deploy.environment]
-  HUGO_VERSION = "0.26"
-
-
-
-# [context.production.environment]
-#   HUGO_VERSION = "0.24.1"
-#   HUGO_ENV = "development"
 
 # https://www.netlify.com/docs/continuous-deployment/#deploy-contexts
 # https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/
