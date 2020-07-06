@@ -10,7 +10,7 @@
       {{ end }}
       <div class="ph3 w-100{{ if .Params.images }} w-60-ns {{ end }}">
         <h1 class="f2-ns f3 fw1 athelas mt0 lh-title">
-          <a href="{{ .URL }}" class="accent-color dim link name">
+          <a href="{{ .RelPermalink }}" class="accent-color dim link name">
             {{ .Title }}
           </a>
         </h1>
@@ -18,7 +18,7 @@
           {{.Summary}}
         </p>
         {{ if gt (.Content | countwords) (.Summary | countwords) }}
-        <a href="{{ .URL }}" class="accent-color dim link">
+        <a href="{{ .RelPermalink }}" class="accent-color dim link">
           more &raquo;
         </a>
         {{end}}

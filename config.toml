@@ -23,8 +23,8 @@ isPlainText = true
 mediatype = "text/netlify"
 notAlternative = true
 [outputs]
-home = ["HTML", "RSS", "JSON", "HEADERS", "CSS"]
-page = ["HTML", "JSON"]
+home = ["HTML", "RSS"]
+page = ["HTML"]
 [params]
 featured_image = "/uploads/gabriele-motter-145574.jpg"
 logo = "/uploads/nous-master.png"

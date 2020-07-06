@@ -1,5 +1,5 @@
 {{ $currentPage := . }}
-{{ $url := printf "%s" .URL | absLangURL }}
+{{ $url := printf "%s" .RelPermalink | absLangURL }}
 {{ $body := print .Title ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
 {{ $list_classes := "tl dib ma0 hover-bg-black w-100" }}
 {{ $classes := "brand-font db f5 flex hover-bg-primary-color hover-white items-center link gray ma0 overflow ph4 pv3 ttu v-btm w-100" }}
