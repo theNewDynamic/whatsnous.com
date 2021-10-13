@@ -7,30 +7,15 @@
   </head>{{/* {{if .IsHome}}sidebar_left {{end}} */}}
   <body class="{{ $.Param "styles.body_classes"  | default "bg-near-white sans-serif"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
   <div class="content content-with-sidebar">
-    
+    {{ block "header" . }}{{ partial "global/header.html" .}}{{ end }}
 
-      <main id="main" {{with $.Param "styles.content_classes"}} class="{{.}}"{{end}}role="main" style="display: flex;
-      flex-direction: column;background-color:#060d2e;">
-    
-        {{ block "main" . }}
-        
-          <img class="splash" src="/uploads/Nous_Homepage_redux_v4.2-070320-2.png" alt="Nous Splash" style="max-width:100%;margin:auto;display:block;">
-        {{ end }}
+      <main id="main" {{with $.Param "styles.content_classes"}} class="{{.}}"{{end}}role="main">
+        {{ block "hero" . }}{{ end }}
+        {{ block "main" . }}{{ end }}
       </main>
 
-      <style>
-        .splash {
-          width:100vw;
-        }
-        @media only screen and (min-width: 1200px) {
-            .splash {
-              width:70vw;
-            }
-
-        } 
-      </style>
-
     </div>
+    {{ block "footer" . }}{{ partial "global/footer.html" . }}{{ end }}
     {{ block "scripts" . }}{{ partial "global/scripts.html" . }}{{ end }}
   </body>
 </html>
