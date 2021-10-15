@@ -7,7 +7,7 @@ images:
 - "/uploads/splash.jpg"
 file_path: ''
 description: ''
-
+draft: true
 ---
 **With 2017 well underway, we are pleased to report great progress on all the Nous Entertainment projects.**
 

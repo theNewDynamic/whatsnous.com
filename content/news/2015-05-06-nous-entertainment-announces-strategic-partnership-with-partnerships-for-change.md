@@ -6,7 +6,7 @@ images:
 file: nous-entertainment-partnership-release-5-4.pdf
 description: Nous Entertainment LLC today announced that Jacqueline Miller and Andrew
   Michael of Partnerships For Change are joining forces with Nous
-
+draft: true
 ---
 **FAR HILLS, NJ – May 6, 2015** – Nous Entertainment LLC today announced that Jacqueline Miller, Founder and CEO and Andrew Michael ESQ of Partnerships For Change® (PFC) –internationally recognized strategists in social change, direct humanitarian action and transformational media—are joining forces with Nous.
 
