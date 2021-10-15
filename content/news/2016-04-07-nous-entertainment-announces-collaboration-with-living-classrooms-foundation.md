@@ -5,7 +5,7 @@ images:
 file: ''
 description: Nous Entertainment LLC today announced that it has secured a third round
   of funding to further support development of its feature-length films
-
+draft: true
 ---
 **Proceeds from 'Proud Mary' to Fund New Educational Facility, Programs**
 

@@ -6,7 +6,7 @@ images:
 file: ''
 description: Nous Entertainment LLC today announced that it has secured a third round
   of funding to further support development of its feature-length films
-
+draft: true
 ---
 **NEW YORK, May 31, 2016** /PRNewswire/ – Nous Entertainment LLC is pleased to announce that Eduardo Sanchez will direct its film project "Griffin's Ghost." Sanchez is noted for writing, editing and directing "The Blair Witch Project."
 

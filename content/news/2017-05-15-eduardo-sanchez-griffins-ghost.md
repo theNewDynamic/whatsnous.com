@@ -7,7 +7,7 @@ images:
 - "/uploads/splash.jpg"
 file_path: ''
 description: ''
-
+draft: true
 ---
 > Angel Grace Worldwide announced Saturday that it will be handling upcoming horror/psychological thriller “Griffin’s Ghost” from “The Blair Witch Project” co-director Eduardo Sánchez. AGW will be distributing the film from Nous Entertainment, and will be launching later this month at Cannes.
 
