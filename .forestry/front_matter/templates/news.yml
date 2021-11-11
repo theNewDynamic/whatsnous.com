@@ -1,4 +1,5 @@
 ---
+label: news
 hide_body: false
 fields:
 - type: text
@@ -23,3 +24,15 @@ fields:
 - type: file
   name: file
   label: File
+pages:
+- content/news/2015-03-01-nous-entertainment-secures-third-round-funding.md
+- content/news/2015-05-06-nous-entertainment-announces-strategic-partnership-with-partnerships-for-change.md
+- content/news/2015-06-29-nous-entertainment-to-executive-produce-forbidden-cuba.md
+- content/news/2015-10-27-nous-entertainment-sponsors-lama-tenzin-choegyal-trip-to-united-states.md
+- content/news/2016-03-23-nous-entertainment-begins-pre-production-on-flagship-film-proud-mary.md
+- content/news/2016-04-07-nous-entertainment-announces-collaboration-with-living-classrooms-foundation.md
+- content/news/2016-06-01-nous-entertainment-announces-eduardo-sanchez-blair-witch-project-to-direct-griffin-s-ghost.md
+- content/news/2016-06-07-forbidden-cuba-screening-at-the-brooklyn-film-festival.md
+- content/news/2017-03-09-first-q-update.md
+- content/news/2017-05-15-eduardo-sanchez-griffins-ghost.md
+- content/news/forbidden-cuba-invited-to-exclusive-film-festivals.md

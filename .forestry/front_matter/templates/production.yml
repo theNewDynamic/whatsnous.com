@@ -1,4 +1,5 @@
 ---
+label: production
 hide_body: false
 fields:
 - type: text
@@ -38,3 +39,14 @@ fields:
   - type: text
     name: role
     label: Role
+pages:
+- content/production/_index.md
+- content/production/abide.md
+- content/production/brooklyn-all-american.md
+- content/production/forbidden-cuba.md
+- content/production/griffins-ghost.md
+- content/production/judas-horse.md
+- content/production/proud-mary.md
+- content/production/the-night-swimmer.md
+- content/production/the-whole-story-podcast.md
+- content/production/yankee-tripper.md

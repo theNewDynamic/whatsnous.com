@@ -1,4 +1,5 @@
 ---
+label: page
 hide_body: false
 fields:
 - type: text
@@ -24,3 +25,19 @@ fields:
 - type: text
   name: image_credit
   label: Image Credit
+pages:
+- content/_index.md
+- content/about.md
+- content/contributors/_index.md
+- content/contributors/adam-scherr.md
+- content/contributors/axel-baumann.md
+- content/contributors/eduardo-sanchez.md
+- content/contributors/jack-zeman.md
+- content/contributors/laurie-welz.md
+- content/contributors/luke-taylor.md
+- content/contributors/rafael-alvarez.md
+- content/contributors/simmons-ozah.md
+- content/contributors/staci-jackson.md
+- content/contributors/suzan-binder.md
+- content/contributors/vickery-eckhoff.md
+- content/people.md

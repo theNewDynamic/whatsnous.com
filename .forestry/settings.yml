@@ -1,16 +1,41 @@
 ---
-upload_path: "/static/uploads"
-frontmatter_file_url_template: "/uploads"
-body_file_url_template: "/uploads"
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-  production:
-    default_front_matter_template: production
-  news:
-    default_front_matter_template: news
-  contributors:
-    default_front_matter_template: page
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: content/production
+  label: Production
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/news
+  label: News
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/contributors
+  label: Contributors
+  create: all
+  match: "**/*"
+upload_dir: static/uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.26
+  preview_output_directory: public
+  preview_docker_image: forestryio/build:latest
+  mount_path: "/opt/buildhome/repo"
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
 version: '0.26'
