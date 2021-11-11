@@ -8,6 +8,6 @@ description: 'Joe Pepitone, a kid from the Brooklyn overcomes an abusive father 
   a near fatal shooting to became a New York Yankee star. But the lure of fame was
   too much of a temptation and Joe threw it all away on drugs, women and wiseguys.
   He returns to the one place he calls home and the one man who can turn it all around. '
-
+draft: true
 ---
 Joe Pepitone, a kid from the Brooklyn overcomes an abusive father and a near fatal shooting to became a New York Yankee star. But the lure of fame was too much of a temptation and Joe threw it all away on drugs, women and wiseguys. He returns to the one place he calls home and the one man who can turn it all around. 

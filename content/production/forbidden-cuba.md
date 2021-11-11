@@ -8,7 +8,7 @@ images:
 description: 'An American businessman travels to Cuba to find an executive gone rogue,
   and finds his eyes opened to the beauty and vibrant culture of Cuba, challenging
   his corporate directives, his identity and everything he has known. '
-
+draft: true
 ---
 ## He wanted a promotion. He got a revolution.
 

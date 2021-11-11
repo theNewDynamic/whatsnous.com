@@ -12,7 +12,7 @@ people:
 - contributor: contributors/laurie-welz.md
   role: Writer, Director
 title: The Night Swimmer
-
+draft: true
 ---
 Laurie Weltz is an award-winning writer, director and editor. Her first film, *Wrestling with Alligators*, premiered at Sundance, where it was nominated for the Grand Jury Prize. The film was released theatrically and on video and television. 
 
