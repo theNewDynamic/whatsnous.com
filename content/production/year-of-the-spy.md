@@ -1,5 +1,5 @@
 ---
-feature_image: false
+feature_image: true
 title: Year of the Spy
 date: 2021-11-10T00:00:00.000-05:00
 description: |-
@@ -20,6 +20,10 @@ Honor, betrayal, and sacrifice: The CIA's best young officers vs the KGB's best 
 
 ---
 
+
+{{< youtube C7T4wb8bBqY >}}
+
+---
 
 ![Year of the Spy pitch deck 1](/uploads/yots/YOTS-Pitch-Deck-July-22--2021_Page_01.jpg)
 
