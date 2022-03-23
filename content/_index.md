@@ -10,6 +10,8 @@ draft: false
 
 ![](/uploads/foxhole.jpeg)
 
+Foxhole. Written and directed by Jack Fessenden, produced by Adam Scherr and Larry Fessenden.
+
 Situating an existential human drama in the most claustrophobic, terrifying, and monotonous of settings—a battlefield trench—has been an irresistible lure to filmmakers like Howard Hawks, Lewis Milestone, Samuel Fuller, Stanley Kubrick, and G. W. Pabst. Jack Fessenden’s ambitious contribution to this wartime genre achieves an almost abstract beauty as it spans 36 hours across three separate wars: the American Civil War, World War I, and the Gulf. Remarkably, Fessenden, who grew up watching his parents, Larry Fessenden and stop-motion animator Beck Underwood, make movies, and who began making movies of his own at age seven, wrote the script for _Foxhole_ while still in high school, shot the film after his first year at Wesleyan, and cut and scored it while isolated in upstate New York during the pandemic.
 
 We will also have a Q&A with the director after the screening.
