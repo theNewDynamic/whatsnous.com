@@ -7,12 +7,19 @@
     "type": "git",
     "url": "git+https://github.com/theNewDynamic/thenewdynamic.com.git"
   },
+  "hugo": {
+    "version": "0.82.0",
+    "extended": true
+  },
   "keywords": [
     "hugo",
     "gohugo"
   ],
   "scripts": {
+    "gethugo": "bash get-hugo.sh",
     "build": "rm -rf public && hugo",
+    "dev:hugo": "HUGO_ENV=development bin/hugo* server --minify -D --gc --navigateToChanged --noHTTPCache",
+		"prod:hugo": "HUGO_ENV=production bin/hugo* --gc --minify",
     "start": "npm run build"
   },
   "author": "budparr",
