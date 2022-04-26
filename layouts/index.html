@@ -1,5 +1,6 @@
 {{ define "header" }}
-{{partial "global/header-home.html" .}}
+{{/*  {{partial "global/header-home.html" .}}  */}}
+{{partial "global/header-home-spring-2022.html" .}}
 {{end}}
 {{ define "main" }}
 {{ $events := where (.Site.RegularPages) ".Section" "event" }}
