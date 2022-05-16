@@ -24,15 +24,15 @@ Situating an existential human drama in the most claustrophobic, terrifying, and
 
 ## Foxhole Reviews
 
-> It’s through this poetic Malick-esque dialogue that his characters show how individual humanity and goodness can endure even in the middle of no man’s land.
+> “It’s through this poetic Malick-esque dialogue that his characters show how individual humanity and goodness can endure even in the middle of no man’s land.“
 
 Read the rest at [RogerEbert.com](https://www.rogerebert.com/reviews/foxhole-movie-review-2022)
 
-> The foxholes from which this ambitious, thoughtful film derives its title are not literal. Not exactly. But the metaphor of military soldiers being squeezed together in a small and somewhat hopeless space is apt.
+> “The foxholes from which this ambitious, thoughtful film derives its title are not literal. Not exactly. But the metaphor of military soldiers being squeezed together in a small and somewhat hopeless space is apt.“
 
 Read the rest at [EntertainmentOrDie.Com](https://www.entertainmentordie.com/2022/05/foxhole/)
 
-By observantly depicting three wars from three different centuries using the same troupe of actors, Foxhole filmmaker Jack Fessenden holds a multi-faceted mirror up to the humanity and mortality of war.
+> “By observantly depicting three wars from three different centuries using the same troupe of actors, Foxhole filmmaker Jack Fessenden holds a multi-faceted mirror up to the humanity and mortality of war.“
 
 Read the rest at [Every Movie Has a Lesson](https://www.everymoviehasalesson.com/blog/2022/5/movie-review-foxhole)
 
